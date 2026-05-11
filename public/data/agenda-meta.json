@@ -1,1 +1,47 @@
-{}
+{
+  "venue": "Music City Convention Center, Nashville, TN",
+  "dates": ["2026-05-20", "2026-05-21"],
+  "keynoteSlot": {
+    "room": "Main Keynote Stage",
+    "day1": {"start": "08:55", "end": "10:30"},
+    "day2": {"start": "09:00", "end": "10:30"}
+  },
+  "happyHours": [
+    {
+      "date": "2026-05-20",
+      "time": "17:05",
+      "location": "Expo Hall / Networking Area",
+      "description": "End-of-day networking reception on the expo floor. Best 45 minutes for casual conversation and booth visits."
+    }
+  ],
+  "mealTimes": [
+    {
+      "date": "2026-05-20",
+      "meal": "Lunch",
+      "time": "12:30",
+      "location": "Expo Hall",
+      "description": "Lunch served on the expo floor — use this time to walk booths while competitors are eating."
+    },
+    {
+      "date": "2026-05-21",
+      "meal": "Lunch",
+      "time": "12:30",
+      "location": "Expo Hall",
+      "description": "Final day lunch. Good time to revisit Tier 1 booths and set up post-conference calls."
+    }
+  ],
+  "connectSessions": {
+    "description": "Home Delivery Connect — curated 1:1 meetings between buyers and solution providers. Schedule through the event app.",
+    "times": [
+      {"date": "2026-05-20", "start": "13:45", "end": "15:00"},
+      {"date": "2026-05-21", "start": "13:15", "end": "14:30"}
+    ]
+  },
+  "generalNotes": [
+    "Conference badge required for all sessions and expo floor access",
+    "Session recordings available post-event for registered attendees",
+    "Expo floor open both days during session breaks and lunch",
+    "Last Mile Retail Awards ceremony held during the event",
+    "Event app available for session scheduling and 1:1 meeting requests"
+  ]
+}

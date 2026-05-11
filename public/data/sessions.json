@@ -1,1 +1,1729 @@
-[]
+[
+  {
+    "id": "session-001",
+    "title": "Terrapinn welcome",
+    "date": "2026-05-20",
+    "startTime": "08:55",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 208:55Conference pass Terrapinn welcomeKeynotes John Beasley, General Manager, Home Delivery World USA",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor"
+    ]
+  },
+  {
+    "id": "session-002",
+    "title": "Opening remarks",
+    "date": "2026-05-20",
+    "startTime": "09:00",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 209:00Conference pass Opening remarksKeynotes Max Garland, Lead Reporter, Industry Dive",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor"
+    ]
+  },
+  {
+    "id": "session-003",
+    "title": "Poweringâ ̄retailâsâ ̄next era through intelligent automationâ ̄â ̄",
+    "date": "2026-05-20",
+    "startTime": "09:05",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 209:05Conference pass Poweringâ ̄retailâsâ ̄next era through intelligent automationâ ̄â ̄Keynotes Moderator: Max Garland, Lead Reporter, Industry Dive Ashish Saxena, SVP, Ashley Furniture Industries Inc Jason Brenner, SVP, FedEx Opal Portis, Vice President, Supply Chain, Fabletics",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "technology",
+      "big-bulky",
+      "furniture",
+      "appliances"
+    ]
+  },
+  {
+    "id": "session-004",
+    "title": "The last mile is no longer the last step: designing home delivery backwards from the consumer",
+    "date": "2026-05-20",
+    "startTime": "09:35",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "Most homeâdelivery strategies are still designed insideâout (cost, network, capacity) rather than outsideâin (consumer expectations, friction, emotion). This session reframes home delivery as a shared consumer experience, not a shipper vs. carrier transaction.",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "customer-experience"
+    ]
+  },
+  {
+    "id": "session-005",
+    "title": "Designing for delivery excellence: elevating the end-to-end customer experienceâ ̄â ̄",
+    "date": "2026-05-20",
+    "startTime": "09:55",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 209:55Conference pass Designing for delivery excellence: elevating the end-to-end customer experienceâ ̄â ̄Keynotes Moderator: Sarah Barnes-Humphrey, Founder/Host, Let's Talk Supply Chain Ashish Saxena, SVP, Ashley Furniture Industries Inc Maryjane Fanizzi, VP Logistics, Mattress Firm",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "technology",
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "customer-experience",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-006",
+    "title": "The truth about same-day delivery: why the economics finally work",
+    "date": "2026-05-20",
+    "startTime": "10:25",
+    "endTime": "",
+    "room": "hallenged",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "For years, same-day delivery has been viewed as a necessary but costly concession to rising customer expectationsâa capability that drives revenue but erodes margin. The prevailing belief across retail has been clear: speed comes at a price, and shoppersdonâtwant topayit!",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "technology",
+      "customer-experience",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-007",
+    "title": "The future of last mile: AI, delivery engagement, and the new standard for on time and in full",
+    "date": "2026-05-20",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2010:50Conference pass The future of last mile: AI, delivery engagement, and the new standard for on time and in fullTech & Innovation Kenneth Currie, Vice President, Partner Sales, Descartes Systems Group Tanner Morley, Associate Director of Last Mile Strategy, HelloFreshTheater 3",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "carrier",
+      "grocery",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-008",
+    "title": "AI orchestration for heavy goods logistics: the next competitive advantage",
+    "date": "2026-05-20",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2010:50Conference pass AI orchestration for heavy goods logistics: the next competitive advantageHeavy Goods Russell Hoppes, VP - Solutions & Delivery, Locus",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-009",
+    "title": "Adapt: leading through loss, change, and what comes next",
+    "date": "2026-05-20",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "Location Theater2",
+    "track": "Warehouse Innovation",
+    "streamRaw": "warehouseinnovation",
+    "description": "May 2010:50Conference pass Adapt: leading through loss, change, and what comes nextWarehouse Innovation Jeff Roby, CEO & Founder, Jeff Roby LeadershipTheater 2",
+    "tags": [
+      "technology",
+      "warehouse",
+      "routing",
+      "3pl",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-010",
+    "title": "Co.LAB Opening Remarks",
+    "date": "2026-05-20",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "",
+    "track": "Start-Up Theatre",
+    "streamRaw": "start-uptheatre",
+    "description": "May 2010:50Conference pass Co.LAB Opening RemarksStart-Up Theatre Bryan Barringer, The Company Lab (CO.LAB)",
+    "tags": [
+      "startup",
+      "technology",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-011",
+    "title": "Scaling home delivery across channels: strategies for speed, consistency, and growth.",
+    "date": "2026-05-20",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "May 2010:50Conference pass Scaling home delivery across channels: strategies for speed, consistency, and growth.Customer Experience C.J. Iannini, Sr. Technical Business Developer, Amazon Multi-Channel FulfillmentTheater 6",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience",
+      "warehouse",
+      "technology",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-012",
+    "title": "Pitch 1",
+    "date": "2026-05-20",
+    "startTime": "11:00",
+    "endTime": "",
+    "room": "Location Theater1",
+    "track": "Start-Up Theatre",
+    "streamRaw": "start-uptheatre",
+    "description": "May 2011:00Conference pass Pitch 1Start-Up Theatre larry fox, CEO, ZFLO TechnologiesTheater 1",
+    "tags": [
+      "startup",
+      "technology",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-013",
+    "title": "AI beyond the four walls: why delivery execution is the next competitive battleground",
+    "date": "2026-05-20",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2011:15Conference pass AI beyond the four walls: why delivery execution is the next competitive battlegroundTech & Innovation Bob Bauer, V.P. of Sales & Co-Founder, DispatchTrackTheater 3",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-014",
+    "title": "A shipper's perspective - untangling the evolving final mile parcel landscape â ̄",
+    "date": "2026-05-20",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2011:15Conference pass A shipper's perspective - untangling the evolving final mile parcel landscape â ̄The Future of Parcel Transport Tanner Morley, Associate Director of Last Mile Strategy, HelloFreshTheater 5",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "grocery",
+      "retail",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-015",
+    "title": "Containers & configurations. How loading can make or break a business",
+    "date": "2026-05-20",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "Location Theater4",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2011:15Conference pass Containers & configurations. How loading can make or break a businessHeavy Goods Kerim Kfuri, President & CEO, The Atlas NetworkTheater 4",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-016",
+    "title": "Title TBC",
+    "date": "2026-05-20",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "Location Theater2",
+    "track": "Warehouse Innovation",
+    "streamRaw": "warehouseinnovation",
+    "description": "May 2011:15Conference pass Title TBCWarehouse Innovation Nitin Agarwal, Director - IT Supply Chain Solutions, Mckesson CorporationTheater 2",
+    "tags": [
+      "technology",
+      "warehouse",
+      "routing",
+      "3pl",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-017",
+    "title": "Pitch 2",
+    "date": "2026-05-20",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "",
+    "track": "Start-Up Theatre",
+    "streamRaw": "start-uptheatre",
+    "description": "May 2011:15Conference pass Pitch 2Start-Up Theatre Hannah Sieber, Co Founder Chief Executive Officer, Artyc",
+    "tags": [
+      "startup",
+      "technology",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-018",
+    "title": "When delivery becomes the brand: closing the joy gap in big & bulky retail",
+    "date": "2026-05-20",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "In big & bulky retail, delivery has become the most visible and emotionally charged brand moment. Between purchase and doorstep sits the Joy Gap â where customer excitement turns into uncertainty and anxiety, driving failed deliveries, rising support volume, and lost loyalty. In this session, weâll explore why big & bulky retailers feel this gap first, how Amazon-inspired expectations have reshaped customer behavior, and why efficiency alone is no longer enough. Weâll share a new way to th",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-019",
+    "title": "Pitch 3",
+    "date": "2026-05-20",
+    "startTime": "11:30",
+    "endTime": "",
+    "room": "Location Theater1",
+    "track": "Start-Up Theatre",
+    "streamRaw": "start-uptheatre",
+    "description": "May 2011:30Conference pass Pitch 3Start-Up Theatre Murat Taskiran, Managing Partner, InLog Robot TechnologyTheater 1",
+    "tags": [
+      "startup",
+      "technology",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-020",
+    "title": "AI and autonomous dispatch: driving efficiency in delivery operationsâ ̄",
+    "date": "2026-05-20",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2011:40Conference pass AI and autonomous dispatch: driving efficiency in delivery operationsâ ̄Tech & Innovation Andrew Leone, CEO, Dispatch Shashwat Murarka, Founder & CEO, Doorstep.ai Nitin Agarwal, Director - IT Supply Chain Solutions, Mckesson Corporation Moderator: Thomas Wasson, Enterprise Trucking Analyst, FreightWaves Stephane Gagne, VP of Products, FarEyeTheater 3",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-021",
+    "title": "Building resilient supply chains for high-demand periods",
+    "date": "2026-05-20",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2011:40Conference pass Building resilient supply chains for high-demand periodsThe Future of Parcel Transport Moderator: Matt Hertz, CEO, Third Person Naveen Chandra, Director of Distribution, EssilorLuxottica Laura Storch Pelletier, Director of Logistics, Fuku Cathy Roberson, Managing Director, Logistics Trends & Insights LLC Doug Allvine, 3S ConsultingTheater 5",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-022",
+    "title": "Setting new standards for white-glove and customer-centric deliveriesâ ̄",
+    "date": "2026-05-20",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "Location Theater4",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2011:40Conference pass Setting new standards for white-glove and customer-centric deliveriesâ ̄Heavy Goods Moderator: Jeff Gutmann, President, Home Delivery Inc Jennifer Hedrick, President, Women In Trucking Association Michelle Bailey, COO, NXTPoint Logistics Todd Warner, Sr. Director, Logistics and Care, Mattress Firm Victor Mraz, COO, Diverse Logistics and Distribution, LLC Gaurav Srivastav",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "technology",
+      "customer-experience",
+      "retail"
+    ]
+  },
+  {
+    "id": "session-023",
+    "title": "The human advantage in building high performing delivery networks",
+    "date": "2026-05-20",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "Location Theater2",
+    "track": "Warehouse Innovation",
+    "streamRaw": "warehouseinnovation",
+    "description": "May 2011:40Conference pass The human advantage in building high performing delivery networksWarehouse Innovation Nicole Ward, Co-Founder & President, African American Women Trucking Association Moderator: Karl Larsen, Executive Coach, Novus Global Kristy Ryan, Chief Operating Officer, Move For Hunger Elise MARQUIS, PARTNER - EXECUTIVE RECRUITER, Chameleon Collective Paul Bingham, Senior Vice Presi",
+    "tags": [
+      "technology",
+      "warehouse",
+      "routing",
+      "3pl",
+      "last-mile",
+      "carrier",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-024",
+    "title": "Creating seamless omnichannel experiences across fulfilment and pickup channelsâ ̄",
+    "date": "2026-05-20",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "May 2011:40Conference pass Creating seamless omnichannel experiences across fulfilment and pickup channelsâ ̄Customer Experience Moderator: Joe Keenan, Editor-in-Chief, Total Retail Prabhat Rao Pinnaka, Lead Product Manager, Lowes Jay De Sieno, Senior Supply Chain Manager, Edible Brands Jeff Roby, CEO & Founder, Jeff Roby LeadershipTheater 6",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-025",
+    "title": "Pitch 4",
+    "date": "2026-05-20",
+    "startTime": "11:45",
+    "endTime": "",
+    "room": "Location Theater1",
+    "track": "Start-Up Theatre",
+    "streamRaw": "start-uptheatre",
+    "description": "May 2011:45Conference pass Pitch 4Start-Up Theatre Sherry Xue, Marketing & BD, RappelTheater 1",
+    "tags": [
+      "startup",
+      "technology",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-026",
+    "title": "Pitch 5",
+    "date": "2026-05-20",
+    "startTime": "12:00",
+    "endTime": "",
+    "room": "",
+    "track": "Start-Up Theatre",
+    "streamRaw": "start-uptheatre",
+    "description": "May 2012:00Conference pass Pitch 5Start-Up Theatre Sarit Tamir, Founder, CEO, Seeteria",
+    "tags": [
+      "startup",
+      "technology",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-027",
+    "title": "Welcome to tomorrowland: where your margin knows what your forecast doesn't",
+    "date": "2026-05-20",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "The future of supply chain managementisn'tabout faster systems - it'sabout connected intelligence that learns from every decision. While most companies stilloperatein departmental silos, a new generation of multi-agentic systems isemergingthat can predict margin impact before decisions are made, not months after. This session explores the gap between today's fragmented point solutions and tomorrow's integrated decision engines - and why the companies building these connections now are creating a",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-028",
+    "title": "Creating agile and reliable delivery networks through strategic partnershipsâ ̄",
+    "date": "2026-05-20",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2012:15Conference pass Creating agile and reliable delivery networks through strategic partnershipsâ ̄The Future of Parcel Transport Moderator: Jason Zapp, President, Catalysitcs Vinny Pagliuca, Director, procurement supply c, Macys Karolina Smith, CEO, Raterunners Ramsey Barksdale, Autonomous Vehicle Logistics, Waymo Prashant Shah, CSCO, MaerskTheater 5",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel"
+    ]
+  },
+  {
+    "id": "session-029",
+    "title": "What it really takes to deliver big and bulky without breaking trust",
+    "date": "2026-05-20",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "Location Theater4",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2012:15Conference pass What it really takes to deliver big and bulky without breaking trustHeavy Goods Carrie Ballenger, SVP of Strategic Accounts, Fidelitone Timothy Melland, VP Logistics Network, ARTICLE.COM Ashlyn Godec, Senior Manager, Wayfair Moderator: Matt Hertz, CEO, Third PersonTheater 4",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-030",
+    "title": "Reducing carbon footprints with energy-efficient and sustainable operationsâ ̄",
+    "date": "2026-05-20",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "Location Theater2",
+    "track": "Warehouse Innovation",
+    "streamRaw": "warehouseinnovation",
+    "description": "May 2012:15Conference pass Reducing carbon footprints with energy-efficient and sustainable operationsâ ̄Warehouse Innovation Claudia Freed, President & CEO, EALgreen Andrew Balthrop, Assistant Professor, University of Tennessee Moderator: Anand Chinnakannan, Staff Data Scientist, WalmartTheater 2",
+    "tags": [
+      "technology",
+      "warehouse",
+      "routing",
+      "3pl",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-031",
+    "title": "Building loyalty through flexible delivery optionsâ ̄",
+    "date": "2026-05-20",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "May 2012:15Conference pass Building loyalty through flexible delivery optionsâ ̄Customer Experience Moderator: Chase Binnie, CEO, Retail Wire Steve Nielson, Director, Gardner-White Furniture Gary Quinton, General Manager, Logistics, Abt Electronics Travis Davis, Manager - Home Delivery, Masterbrands Cabinets Steve LaPointe, SR. Director of Distribution Services, Star Furniture Catherine Dummitt, V",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience",
+      "technology",
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-032",
+    "title": "Scaling brokerage + fleet operations with Revenova: a real-world playbook with LEGACY supply chain",
+    "date": "2026-05-20",
+    "startTime": "12:50",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "Running both brokerage and fleet operations doesnât have to mean managing two separate systems, workflows, and teams. In this session, Revenova will share how a unified approach to transportation management enables companies to operate more efficiently, make faster decisions, and adapt to changing market conditionsâ all within a single platform.",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-033",
+    "title": "Your route plan is lying to you: fixing the last-mile execution gap",
+    "date": "2026-05-20",
+    "startTime": "12:50",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "Most route plans look perfect - until drivers hit the road. Orders sit unassigned because time windows, capacity, and driver availability donât align. Dispatchers are forced to tradeoff between cost, service levels, and feasibility. Drivers deviate from planned routes, and time is lost at every stop searching for parking, entrances, and delivery locations. The result: missed ETAs, failed first attempts, and rising last-mile costs.â",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "technology",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-034",
+    "title": "How to find a supplier like a pro",
+    "date": "2026-05-20",
+    "startTime": "12:50",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2012:50Conference pass How to find a supplier like a proHeavy Goods Doug Allvine, 3S Consulting",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-035",
+    "title": "Why most AI in logistics fails â and how to get it right",
+    "date": "2026-05-20",
+    "startTime": "12:50",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "Move beyond the hype as we reveal why most AI initiatives in transportation logistics fail, offering a prescriptive framework and practical strategies to ensure your solutions drive tangible improvements in fleet efficiency, operating costs, and on-time delivery performance.",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience",
+      "technology",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-036",
+    "title": "AI at work: applying AI to the transportation spend management workflowâ ̄",
+    "date": "2026-05-20",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2013:15Conference pass AI at work: applying AI to the transportation spend management workflowâ ̄Tech & Innovation Moderator: Gabrielle Murabito, Senior Account Manager, Reveel Jack McCrum, Director, Optimization & Analy, Reveel Gloria Seckler Osuna, Director, Operations Data & Strategy, GOAT Group Paula Natoli, Head of Global Supply Chain Strategic Industries, Google Cloud Michael Von Wald, D",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-037",
+    "title": "From vendor to partner: rethinking the role of your last-mile carrier",
+    "date": "2026-05-20",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "As customer expectations rise and delivery becomes a direct extension of the brand, shippers are rethinking the role of their last-mile partners. Regional carriers are no longer just filling gaps in coverage, theyâre emerging as strategic partners and helping brands to solve complex operational challenges, improve performance, and co-create new delivery solutions.In this session, weâll explore how leading shippers are building smarter multi-carrier strategies, what separates transactional ve",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "retail",
+      "customer-experience"
+    ]
+  },
+  {
+    "id": "session-038",
+    "title": "Building smarter supply chains with real-time inventory insights â ̄â ̄",
+    "date": "2026-05-20",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "Location Theater2",
+    "track": "Warehouse Innovation",
+    "streamRaw": "warehouseinnovation",
+    "description": "May 2013:15Conference pass Building smarter supply chains with real-time inventory insights â ̄â ̄Warehouse Innovation Prabhat Rao Pinnaka, Lead Product Manager, Lowes Moderator: Anand Chinnakannan, Staff Data Scientist, Walmart Prabhakaran Rajendran, Director of IT - Warehouse management systems, CILT North America Venkates (Venkat) Ramalingam, Manager, Technology Implementations, GXO Logistics I",
+    "tags": [
+      "technology",
+      "warehouse",
+      "routing",
+      "3pl",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-039",
+    "title": "Using predictive platforms to provideâ ̄accurateâ ̄ETAs and build customer loyaltyâ ̄â ̄",
+    "date": "2026-05-20",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "May 2013:15Conference pass Using predictive platforms to provideâ ̄accurateâ ̄ETAs and build customer loyaltyâ ̄â ̄Customer Experience Shashwat Murarka, Founder & CEO, Doorstep.ai Ashish Saxena, SVP, Ashley Furniture Industries Inc Russell Reams DBA, VP, The Colography Group, LLC Moderator: Ben Cronsberry, Head of GTM & Partnerships, Parsel Vijay Ramachandran, VP Marketing, Product Strategy & Mark",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience",
+      "technology",
+      "big-bulky",
+      "furniture",
+      "appliances"
+    ]
+  },
+  {
+    "id": "session-040",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-20",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-041",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-20",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel"
+    ]
+  },
+  {
+    "id": "session-042",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-20",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-043",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-20",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "Location Theater2",
+    "track": "Warehouse Innovation",
+    "streamRaw": "warehouseinnovation",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "technology",
+      "warehouse",
+      "routing",
+      "3pl"
+    ]
+  },
+  {
+    "id": "session-044",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-20",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience"
+    ]
+  },
+  {
+    "id": "session-045",
+    "title": "Leveraging digital twins for smarter network planning",
+    "date": "2026-05-20",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "Location Theater3",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2015:15Conference pass Leveraging digital twins for smarter network planningTech & Innovation Moderator: Glenn Taylor, Logistics Editor, Sourcing Journal Thomas Maxner, Director, Urban Freight Lab Raghavender Sahdev, CEO, NuPort Robotics Christine Barnhart, Member Board of Directors, Association for Supply Chain ManagementTheater 3",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-046",
+    "title": "Building flexible and resilient supply chains with integrated rail, road, and air networksâ ̄",
+    "date": "2026-05-20",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2015:15Conference pass Building flexible and resilient supply chains with integrated rail, road, and air networksâ ̄The Future of Parcel Transport Moderator: Brian Straight, Editor in Chief, Supply Chain Management - Peerless Media Jonathan Gold, VP, Supply Chain and Customs Policy, National Retail Federation Anne Reinke, President, Intermodal Association of North America Kerim Kfuri, Presiden",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "technology",
+      "retail"
+    ]
+  },
+  {
+    "id": "session-047",
+    "title": "Managing consumer safety and business liability in your home delivery program",
+    "date": "2026-05-20",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "Location Theater4",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2015:15Conference pass Managing consumer safety and business liability in your home delivery programHeavy Goods Moderator: Josh DeLay, Vice President, J.B. Hunt Final MileTheater 4",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "customer-experience",
+      "retail"
+    ]
+  },
+  {
+    "id": "session-048",
+    "title": "Boosting warehouse efficiency with automated storage and retrieval systemsâ ̄â ̄",
+    "date": "2026-05-20",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "Location Theater2",
+    "track": "Warehouse Innovation",
+    "streamRaw": "warehouseinnovation",
+    "description": "May 2015:15Conference pass Boosting warehouse efficiency with automated storage and retrieval systemsâ ̄â ̄Warehouse Innovation Prabhat Rao Pinnaka, Lead Product Manager, Lowes Anupam Bandyopadhyay, VP, CSCMP Anand Chinnakannan, Staff Data Scientist, Walmart Moderator: Melissa Pacheco, Executive Recruiter, Chameleon Collective Jamie Cord, President and Chief Executive Officer, JT LogisticsTheater",
+    "tags": [
+      "technology",
+      "warehouse",
+      "routing",
+      "3pl",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-049",
+    "title": "Building delivery networks that work for complex and care critical products",
+    "date": "2026-05-20",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "Location Theater6",
+    "track": "Customer Experience",
+    "streamRaw": "customerexperience",
+    "description": "May 2015:15Conference pass Building delivery networks that work for complex and care critical productsCustomer Experience Craig Bailey, Director Logistics/ Operations, Cardinal Health Kelly Picard, CEO, Hackbarth Delivery Service Madhusudan S Vadigicherla, Director, Supply Chain Systems, Integra LifeSciences Corporation Moderator: Eric Chesson, Vice President of B2B Account Management, OnTrac Gran",
+    "tags": [
+      "retail",
+      "last-mile",
+      "customer-experience",
+      "technology",
+      "carrier"
+    ]
+  },
+  {
+    "id": "session-050",
+    "title": "AI that delivers: how supply chain leaders turn potential into performance",
+    "date": "2026-05-20",
+    "startTime": "15:55",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "AI isnât disrupting the last mile. Itâs being redefined by leaders who know how to use it, and the shift is no longer optional.",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-051",
+    "title": "Delivering net zero: meeting the sustainability challenge inâ ̄logisticsâ ̄",
+    "date": "2026-05-20",
+    "startTime": "16:30",
+    "endTime": "",
+    "room": "hallenge",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 2016:30Conference pass Delivering net zero: meeting the sustainability challenge inâ ̄logisticsâ ̄Keynotes Moderator: Sheri Hinish, Founder, CEO Supply Chain Revolution Global, Supply Chain Revolution Podcast Suzanne Long, Chief Sustainability & Transfo, Albertsonâs Inc Clayton Gerber, Freight Program Manager, Center for Green Market Activation Sam Brundrett, Sustainability Lead, Etsy",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "technology",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-052",
+    "title": "Fuelling the future: investment trends driving supply chain and logistics innovation",
+    "date": "2026-05-20",
+    "startTime": "17:05",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 2017:05Conference pass Fuelling the future: investment trends driving supply chain and logistics innovationKeynotes Kerim Kfuri, President & CEO, The Atlas Network Janie Yu, General Partner, LFX Venture Partners Julie Johnson, CEO, Joules Ventures",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "technology",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-053",
+    "title": "Opening remarks",
+    "date": "2026-05-21",
+    "startTime": "09:00",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 219:00Conference pass Opening remarksKeynotes Liz Young, Logistics Reporter, The Wall Street Journal & Dow Jones Risk Journal",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor"
+    ]
+  },
+  {
+    "id": "session-054",
+    "title": "â ̄Right product, right place, real-time: enabling omnichannel success through end-to-end visibilityâ ̄â ̄",
+    "date": "2026-05-21",
+    "startTime": "09:05",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 219:05Conference pass â ̄Right product, right place, real-time: enabling omnichannel success through end-to-end visibilityâ ̄â ̄Keynotes Moderator: Liz Young, Logistics Reporter, The Wall Street Journal & Dow Jones Risk Journal Mike Bogovich, Vice President of Distribution, Ulta Beauty Nitin Kapoor, VP of Supply Chain and Retail, Wayfair Matt Krueger, SVP, Buffalo Games & Subsidiaries",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "technology",
+      "routing",
+      "tms",
+      "visibility"
+    ]
+  },
+  {
+    "id": "session-055",
+    "title": "From expectation to execution: redefining home delivery in an on-demand world",
+    "date": "2026-05-21",
+    "startTime": "09:35",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 219:35Conference pass From expectation to execution: redefining home delivery in an on-demand worldKeynotes Kim Lewis, Sr. Principal UX Design, Amazon Multi-Channel Fulfillment",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "warehouse",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-056",
+    "title": "Reverseâ ̄logisticsâ ̄reimagined: turning returns into a competitive advantageâ ̄â ̄",
+    "date": "2026-05-21",
+    "startTime": "09:55",
+    "endTime": "",
+    "room": "",
+    "track": "Keynotes",
+    "streamRaw": "keynote",
+    "description": "May 219:55Conference pass Reverseâ ̄logisticsâ ̄reimagined: turning returns into a competitive advantageâ ̄â ̄Keynotes Rob Iaria, VP of Logistics & Client Services, B-Stock Moderator: Liz Young, Logistics Reporter, The Wall Street Journal & Dow Jones Risk Journal Rich Amsinger, Co-Founder, Manymoons Prashant Shah, CSCO, Maersk",
+    "tags": [
+      "keynote",
+      "last-mile",
+      "retail",
+      "carrier",
+      "tech-vendor",
+      "returns",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-057",
+    "title": "Innovation without the manual: leading through ambiguity and constant change",
+    "date": "2026-05-21",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2110:50Conference pass Innovation without the manual: leading through ambiguity and constant changeTech & Innovation Pinar Kucukyilmaz, Director, Continuous Improvement, FreshDirect",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "grocery",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-058",
+    "title": "TBC",
+    "date": "2026-05-21",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2110:50Conference pass TBCThe Future of Parcel Transport Mike Kelley, Lead Product Manager - Traceability, NIKETheater 5",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "routing",
+      "tms",
+      "visibility",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-059",
+    "title": "Returns as a supply chain signal",
+    "date": "2026-05-21",
+    "startTime": "10:50",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "May 2110:50Conference pass Returns as a supply chain signalReturns & Reverse Logistics Antonio Colicchio, Founder, The Returns Guy LLC",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile",
+      "technology",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-060",
+    "title": "Title TBC",
+    "date": "2026-05-21",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2111:15Conference pass Title TBCTech & Innovation Karolina Smith, CEO, Raterunners",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-061",
+    "title": "Beyond the box: why parcel theft is eroding brand trust, customer retention, and profits.",
+    "date": "2026-05-21",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "For years, parcel theft has been treated as a minor customer-service annoyance, a simple refund or replacement that comes with the territory of e-commerce growth as a cost of doing business. But the data shows otherwise. Stolen packages trigger far more than the visible item cost, often 1.8% to 3.0% of parcel revenue in total hidden losses, quietly destroying brand trust, driving customer attrition, and creating significant unreported margin risk, making proactive protection essential to winning",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "customer-experience",
+      "retail",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-062",
+    "title": "Start with constraints, win with alignment",
+    "date": "2026-05-21",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2111:15Conference pass Start with constraints, win with alignmentHeavy Goods Daniel Murphy, Manager, Hilti North America",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-063",
+    "title": "Title TBC",
+    "date": "2026-05-21",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "May 2111:15Conference pass Title TBCReturns & Reverse Logistics Claudia Freed, President & CEO, EALgreen",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-064",
+    "title": "Title TBC",
+    "date": "2026-05-21",
+    "startTime": "11:15",
+    "endTime": "",
+    "room": "",
+    "track": "Evcharging",
+    "streamRaw": "evcharging",
+    "description": "May 2111:15Conference pass Title TBCEV & Charging Clayton Gerber, Freight Program Manager, Center for Green Market Activation",
+    "tags": [
+      "last-mile",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-065",
+    "title": "The road to autonomy: Trialling driverless delivery vehiclesâ ̄",
+    "date": "2026-05-21",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2111:40Conference pass The road to autonomy: Trialling driverless delivery vehiclesâ ̄Tech & Innovation Virind Gujral, Founder and CEO, EV Bots, Inc. Raghavender Sahdev, CEO, NuPort Robotics Moderator: Jason Burns, Last2First Podcast/L2F Huddle Founder, Last2First Beth Flippo, CEO, DEXA (Drone Express)",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-066",
+    "title": "Driving smarter shipping with dynamic multi-carrier rate optimization",
+    "date": "2026-05-21",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "Location Theater5",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2111:40Conference pass Driving smarter shipping with dynamic multi-carrier rate optimizationThe Future of Parcel Transport Michael Irving, Head of Transporation, Nuts.com Sam Gorgone, VP of Sales, ShipScience LLC Austin Smith, CEO, Raterunners Moderator: Eileen Dabrowski, Founder/CEO, Apex Tide ConsultingTheater 5",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel"
+    ]
+  },
+  {
+    "id": "session-067",
+    "title": "Tackling the challenges of last-mile scheduling for oversized itemsâ ̄",
+    "date": "2026-05-21",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "hallenges",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2111:40Conference pass Tackling the challenges of last-mile scheduling for oversized itemsâ ̄Heavy Goods Daniel Murphy, Manager, Hilti North America Timothy Melland, VP Logistics Network, ARTICLE.COM Dennis McCaffrey, Vice President, Enterprise Sales, RXO Moderator: Jeff Tran, Vice President, Lecangs Fullfillment Scott Johnston, CEO, AFM Logistics",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "carrier"
+    ]
+  },
+  {
+    "id": "session-068",
+    "title": "Winning the doorstep moment: where logistics meets customer experience",
+    "date": "2026-05-21",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "What happens when a logistics provider and a retailer stop treating delivery as a handoff â and start treating it as a shared brand experience?Join Shelly Brick, CFO at EFW, and Jonathan Smith, Sr. Manager of 3PL & Home Delivery at Purple, for a candid 30-minute panel on how the âdoorstep momentâ is reshaping what consumers expect from big and bulky delivery â and what carriers and retailers can do together to turn logistics into a loyalty engine.",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile",
+      "technology",
+      "carrier",
+      "customer-experience",
+      "3pl"
+    ]
+  },
+  {
+    "id": "session-069",
+    "title": "Charting a clear path to zero-emission fleets amid changing policies and regulationsâ ̄",
+    "date": "2026-05-21",
+    "startTime": "11:40",
+    "endTime": "",
+    "room": "",
+    "track": "Evcharging",
+    "streamRaw": "evcharging",
+    "description": "May 2111:40Conference pass Charting a clear path to zero-emission fleets amid changing policies and regulationsâ ̄EV & Charging Bryan Barringer, The Company Lab (CO.LAB) Moderator: Thomas Wasson, Enterprise Trucking Analyst, FreightWaves Emily Phillips, Principal & Founder, E.MISSION Advisory Leilani Gonzalez, Chief of Staff and Policy Director, Zero Emission Transportation Association (ZETA)",
+    "tags": [
+      "last-mile",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-070",
+    "title": "Women move the world",
+    "date": "2026-05-21",
+    "startTime": "11:55",
+    "endTime": "",
+    "room": "",
+    "track": "Start-Up Theatre",
+    "streamRaw": "start-uptheatre",
+    "description": "May 2111:55Conference pass Women move the worldStart-Up Theatre Moderator: Sheri Hinish, Founder, CEO Supply Chain Revolution Global, Supply Chain Revolution Podcast Christine Barnhart, Member Board of Directors, Association for Supply Chain Management Maryjane Fanizzi, VP Logistics, Mattress Firm Nicole Ward, Co-Founder & President, African American Women Trucking Association Eileen Dabrowski, Fo",
+    "tags": [
+      "startup",
+      "technology",
+      "last-mile",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-071",
+    "title": "Proactive strategies to tackle parcel fraud and theft â ̄",
+    "date": "2026-05-21",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2112:15Conference pass Proactive strategies to tackle parcel fraud and theft â ̄Tech & Innovation Ben Stickle, Professor of Criminal Justice, Middle Tennessee State University Christina Burton, Research Scientist, LPRC Allyssa Wickstrom, CLO, General Counsel, Wineshipping Moderator: Lorena Camargo, President, Customized Logistics & Delivery Association",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "parcel",
+      "carrier",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-072",
+    "title": "Driving innovation in temperature-controlled freight and cold chain logisticsâ ̄",
+    "date": "2026-05-21",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2112:15Conference pass Driving innovation in temperature-controlled freight and cold chain logisticsâ ̄The Future of Parcel Transport Zeeshan Wahid, Director of Distribution and Fulfilment Operations, Nothing Bundt Cakes Tanner Morley, Associate Director of Last Mile Strategy, HelloFresh Hannah Sieber, Co Founder Chief Executive Officer, Artyc Arin Simpson, Vice President Strategic Partnership",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "technology",
+      "grocery",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-073",
+    "title": "Unlocking cost savings by optimizing LTL network consolidation strategies",
+    "date": "2026-05-21",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2112:15Conference pass Unlocking cost savings by optimizing LTL network consolidation strategiesHeavy Goods Laura Storch Pelletier, Director of Logistics, Fuku Moderator: Jon Doolen, Chief Strategy Leader, Doolen Strategy Partners Jason Roberts, SVP, Digital Enablement, MODE Global",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-074",
+    "title": "Managing E-Commerce Returns and Reverse Logistics Without the Headaches",
+    "date": "2026-05-21",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "May 2112:15Conference pass Managing E-Commerce Returns and Reverse Logistics Without the HeadachesReturns & Reverse Logistics Claudia Freed, President & CEO, EALgreen Jennifer Mitchell, Associate Director of Global Logistics, GOAT Group Venkates (Venkat) Ramalingam, Manager, Technology Implementations, GXO Logistics Inc Moderator: Courtney Herda, VP of Digital Strategy, LeadCoverage Jamin Nieri, C",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-075",
+    "title": "Using real-time EV data to optimize range and predictive maintenanceâ ̄",
+    "date": "2026-05-21",
+    "startTime": "12:15",
+    "endTime": "",
+    "room": "",
+    "track": "Evcharging",
+    "streamRaw": "evcharging",
+    "description": "May 2112:15Conference pass Using real-time EV data to optimize range and predictive maintenanceâ ̄EV & Charging Virind Gujral, Founder and CEO, EV Bots, Inc. Moderator: Michael Roeth, Executive Director, North American Council For Freight Efficiency Julie Johnson, CEO, Joules Ventures Angela Strand, Board Chair, Gateway Fleets",
+    "tags": [
+      "last-mile",
+      "technology",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-076",
+    "title": "Leveraging a hierarchical planning approach to utilize digitization and AI in a supply chain organization",
+    "date": "2026-05-21",
+    "startTime": "12:50",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2112:50Conference pass Leveraging a hierarchical planning approach to utilize digitization and AI in a supply chain organizationTech & Innovation Tan Miller, Professor, Rider University",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-077",
+    "title": "The end of manual data entry: killing the BOL bottleneck with agentic AI",
+    "date": "2026-05-21",
+    "startTime": "12:50",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2112:50Conference pass The end of manual data entry: killing the BOL bottleneck with agentic AIHeavy Goods Philip Spelman, VP of Sales, Optym Praneeth Devunuri, Senior AI Scientist, Optym",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "technology",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-078",
+    "title": "Culture is a choice: how value alignment shapes what actually happens at work",
+    "date": "2026-05-21",
+    "startTime": "12:50",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "Why culture isnât your mission statementâitâs the decisions you reward, tolerate, and repeat.",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-079",
+    "title": "Innovation in the last mile",
+    "date": "2026-05-21",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2113:15Conference pass Innovation in the last mileTech & Innovation Sheila Berry, Chief Revenue Officer, UNIUNI Velmurugan Dandapani, Manager, Fulfillment & Final Mile, Tractor Supply Co Moderator: Angela Strand, Board Chair, Gateway Fleets Nathan Browne, Senior Vice President - Intermodal & Final Mile, Werner Enterprises Ivan Marchenko, COO, Meest Canada Jeff Wolpov, Senior Vice President, E-",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "carrier",
+      "warehouse",
+      "startup",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-080",
+    "title": "Improving delivery accuracy and authenticity with digital labelling and barcoding innovations",
+    "date": "2026-05-21",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2113:15Conference pass Improving delivery accuracy and authenticity with digital labelling and barcoding innovationsThe Future of Parcel Transport Ben Stickle, Professor of Criminal Justice, Middle Tennessee State University larry fox, CEO, ZFLO Technologies Mike Kelley, Lead Product Manager - Traceability, NIKE",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "routing",
+      "tms",
+      "visibility",
+      "technology",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-081",
+    "title": "Optimizing warehouse slotting and flow to handle heavy and bulky SKUsâ ̄",
+    "date": "2026-05-21",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2113:15Conference pass Optimizing warehouse slotting and flow to handle heavy and bulky SKUsâ ̄Heavy Goods Anupam Bandyopadhyay, VP, CSCMP Jonathan Smith, Sr Manager of 3PL & Home Delivery, Purple Michael Giacoletti, Senior Site Manager, 3PL Operations, Spin Master Moderator: Brandon Hines, Director, Solutions Engineering, RBW Logistics Wally Shaw, CEO, Red Stag Fulfillment",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "warehouse",
+      "technology",
+      "3pl",
+      "carrier"
+    ]
+  },
+  {
+    "id": "session-082",
+    "title": "Rewriting the returns playbook: How Start-ups are fixing what retailers hate most â ̄",
+    "date": "2026-05-21",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "May 2113:15Conference pass Rewriting the returns playbook: How Start-ups are fixing what retailers hate most â ̄Returns & Reverse Logistics Roman Pennell, CEO, LoopDeco Satpreet Aulakh, CEO &amp; Founder, GreenMile AI Gary Stephens, CEO and Founder, Vendidit",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile",
+      "technology",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-083",
+    "title": "Scaling Smarter: What M&A Really Means for Your Supply Chain Operations",
+    "date": "2026-05-21",
+    "startTime": "13:15",
+    "endTime": "",
+    "room": "",
+    "track": "Evcharging",
+    "streamRaw": "evcharging",
+    "description": "May 2113:15Conference pass Scaling Smarter: What M&A Really Means for Your Supply Chain OperationsEV & Charging Moderator: Eric Heath, Managing Director, Bluejay Advisors Jonathon Stevens, CTO, Warehouse Anywhere Okan Inaltay, Managing Director, Head of AI & Software, ComCap",
+    "tags": [
+      "last-mile",
+      "technology",
+      "warehouse",
+      "ev"
+    ]
+  },
+  {
+    "id": "session-084",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-21",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-085",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-21",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel"
+    ]
+  },
+  {
+    "id": "session-086",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-21",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-087",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-21",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-088",
+    "title": "Home Delivery Connect",
+    "date": "2026-05-21",
+    "startTime": "13:50",
+    "endTime": "",
+    "room": "",
+    "track": "Evcharging",
+    "streamRaw": "evcharging",
+    "description": "Curated 1:1 Meetings",
+    "tags": [
+      "last-mile"
+    ]
+  },
+  {
+    "id": "session-089",
+    "title": "Why cybersecurity is now an operations and logistics problem",
+    "date": "2026-05-21",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "",
+    "track": "Tech & Innovation",
+    "streamRaw": "techinnovation",
+    "description": "May 2115:15Conference pass Why cybersecurity is now an operations and logistics problemTech & Innovation Moderator: Jason Burns, Last2First Podcast/L2F Huddle Founder, Last2First Maureen McWhite, Owner, 4Gen Consulting Services LLC Jordanne Barrett, Business Information Security Officer, AT&T",
+    "tags": [
+      "technology",
+      "routing",
+      "tms",
+      "visibility",
+      "last-mile",
+      "startup"
+    ]
+  },
+  {
+    "id": "session-090",
+    "title": "Staying ahead of regulations with strong cross-border and tariff management",
+    "date": "2026-05-21",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "",
+    "track": "The Future of Parcel Transport",
+    "streamRaw": "thefutureofparceltransport",
+    "description": "May 2115:15Conference pass Staying ahead of regulations with strong cross-border and tariff managementThe Future of Parcel Transport Moderator: Jonathan Gold, VP, Supply Chain and Customs Policy, National Retail Federation Bryan Barringer, The Company Lab (CO.LAB) Kerim Kfuri, President & CEO, The Atlas Network Kimberly Smith, Sr Director Global Customs and Transportation, S & S Activewear Ankit D",
+    "tags": [
+      "last-mile",
+      "carrier",
+      "3pl",
+      "parcel",
+      "technology",
+      "retail"
+    ]
+  },
+  {
+    "id": "session-091",
+    "title": "Panel:â ̄Balancing strength and energy efficient packaging for larger shipmentsâ ̄â ̄",
+    "date": "2026-05-21",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "",
+    "track": "Heavy Goods",
+    "streamRaw": "heavygoods",
+    "description": "May 2115:15Conference pass Panel:â ̄Balancing strength and energy efficient packaging for larger shipmentsâ ̄â ̄Heavy Goods Jonathan Smith, Sr Manager of 3PL & Home Delivery, Purple Ariane Kemper, COO, eGourmet Solutions Inc. Justin Felinski, Regional Manager, Fidelitone Lucas Coelho, Account Manager USA, TW Logistics Moderator: Talal Asad, President / Founder, Brand Together LLC",
+    "tags": [
+      "big-bulky",
+      "furniture",
+      "appliances",
+      "last-mile",
+      "3pl",
+      "carrier"
+    ]
+  },
+  {
+    "id": "session-092",
+    "title": "How to build a reverse infrastructure that scales with growth",
+    "date": "2026-05-21",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "",
+    "track": "Returns & Reverse Logistics",
+    "streamRaw": "returnsreverselogistics",
+    "description": "May 2115:15Conference pass How to build a reverse infrastructure that scales with growthReturns & Reverse Logistics Tony Lynch, Professor, Pennsylvania State University, Harrisburg Jennifer Mitchell, Associate Director of Global Logistics, GOAT Group Moderator: Courtney Herda, VP of Digital Strategy, LeadCoverage Bill Thayer, Founder, CEO, Fillogic Kristen Pickholz, Senior Manager of Strategic Acc",
+    "tags": [
+      "returns",
+      "retail",
+      "last-mile",
+      "ev",
+      "technology"
+    ]
+  },
+  {
+    "id": "session-093",
+    "title": "The new 3PL playbook: what it takes to win in todayâs logistics market",
+    "date": "2026-05-21",
+    "startTime": "15:15",
+    "endTime": "",
+    "room": "",
+    "track": "Evcharging",
+    "streamRaw": "evcharging",
+    "description": "May 2115:15Conference pass The new 3PL playbook: what it takes to win in todayâs logistics marketEV & Charging Katerina Cirilli, CEO, Saltbox Devin Knight, Vice President Transportation & Planning, ShipMonk Kaleb Mondragon, VP of Logistics, ShipOffers Moderator: Rodney Galeano, Founder & CEO, Loki 3PL",
+    "tags": [
+      "last-mile",
+      "ev",
+      "technology",
+      "3pl",
+      "carrier"
+    ]
+  }
+]

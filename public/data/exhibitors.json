@@ -1,1 +1,352 @@
-[]
+[
+  {
+    "id": "exh-001",
+    "company": "DispatchTrack",
+    "boothNumber": "A100",
+    "categories": ["technology", "routing", "last-mile", "visibility"],
+    "description": "AI-powered last-mile delivery platform that helps enterprise shippers optimize routes, engage customers, and reduce delivery failures. Used by furniture, appliance, and grocery retailers."
+  },
+  {
+    "id": "exh-002",
+    "company": "Descartes Systems",
+    "boothNumber": "A102",
+    "categories": ["technology", "tms", "routing", "visibility", "carrier"],
+    "description": "Global logistics technology company providing route planning, last-mile delivery, and supply chain visibility solutions. Trusted by thousands of companies for delivery management."
+  },
+  {
+    "id": "exh-003",
+    "company": "Locus",
+    "boothNumber": "A104",
+    "categories": ["technology", "routing", "last-mile", "tms"],
+    "description": "AI-based dispatching and route optimization platform for enterprises. Automates decisions for first, middle, and last-mile logistics with measurable cost and quality improvements."
+  },
+  {
+    "id": "exh-004",
+    "company": "Optym",
+    "boothNumber": "A106",
+    "categories": ["technology", "routing", "tms", "carrier"],
+    "description": "AI-powered planning and optimization tools for freight, trucking, and last-mile delivery. Helps carriers and shippers reduce miles, improve on-time delivery, and cut costs."
+  },
+  {
+    "id": "exh-005",
+    "company": "FarEye",
+    "boothNumber": "A108",
+    "categories": ["technology", "last-mile", "visibility", "customer-experience"],
+    "description": "Delivery management platform that unifies carrier networks, automates dispatch, and provides real-time tracking. Specializes in retail and e-commerce last-mile delivery."
+  },
+  {
+    "id": "exh-006",
+    "company": "Revenova",
+    "boothNumber": "B100",
+    "categories": ["technology", "tms", "carrier", "3pl"],
+    "description": "Cloud TMS built on Salesforce. Combines brokerage and fleet management in a single platform. Real-time visibility, document management, and carrier integration."
+  },
+  {
+    "id": "exh-007",
+    "company": "Reveel",
+    "boothNumber": "B102",
+    "categories": ["technology", "carrier", "parcel", "tms"],
+    "description": "Parcel spend management platform. Analyzes carrier contracts, benchmarks rates, and identifies savings across FedEx, UPS, and regional carriers."
+  },
+  {
+    "id": "exh-008",
+    "company": "Raterunners",
+    "boothNumber": "B104",
+    "categories": ["technology", "carrier", "parcel", "startup"],
+    "description": "Dynamic multi-carrier rate optimization for e-commerce shippers. Automatically routes each shipment to the best carrier based on cost, speed, and service requirements."
+  },
+  {
+    "id": "exh-009",
+    "company": "Project44",
+    "boothNumber": "B106",
+    "categories": ["technology", "visibility", "tms", "carrier"],
+    "description": "Advanced visibility platform for supply chains. Real-time tracking across all modes — ocean, air, road, and last-mile. Trusted by Fortune 500 shippers and carriers."
+  },
+  {
+    "id": "exh-010",
+    "company": "EALgreen",
+    "boothNumber": "B108",
+    "categories": ["technology", "ev", "sustainability"],
+    "description": "Sustainability consulting and fleet electrification advisory. Helps logistics companies transition to zero-emission fleets, optimize charging infrastructure, and meet Scope 3 targets."
+  },
+  {
+    "id": "exh-011",
+    "company": "J.B. Hunt Final Mile",
+    "boothNumber": "C100",
+    "categories": ["carrier", "big-bulky", "last-mile", "3pl"],
+    "description": "Full-service final mile delivery for furniture, appliances, exercise equipment, and other big & bulky items. White-glove delivery, installation, and haul-away nationwide."
+  },
+  {
+    "id": "exh-012",
+    "company": "MODE Global",
+    "boothNumber": "C102",
+    "categories": ["carrier", "3pl", "tms", "last-mile"],
+    "description": "Tech-enabled freight brokerage and managed transportation services. Covers all modes including final mile, expedited, and over-dimensional freight."
+  },
+  {
+    "id": "exh-013",
+    "company": "OnTrac",
+    "boothNumber": "C104",
+    "categories": ["carrier", "parcel", "last-mile"],
+    "description": "Regional parcel carrier focused on the Western and Sunbelt US. Overnight delivery to major markets at competitive rates. E-commerce focused with API integration."
+  },
+  {
+    "id": "exh-014",
+    "company": "GXO Logistics",
+    "boothNumber": "C106",
+    "categories": ["3pl", "carrier", "warehouse", "last-mile", "big-bulky"],
+    "description": "World's largest pure-play contract logistics provider. Warehousing, fulfillment, and final mile for retail, e-commerce, and big & bulky customers globally."
+  },
+  {
+    "id": "exh-015",
+    "company": "Maersk",
+    "boothNumber": "C108",
+    "categories": ["carrier", "3pl", "last-mile"],
+    "description": "Integrated logistics company offering end-to-end supply chain services including ocean freight, air freight, warehousing, and last-mile delivery across 130+ countries."
+  },
+  {
+    "id": "exh-016",
+    "company": "ZFLO Technologies",
+    "boothNumber": "D100",
+    "categories": ["startup", "technology", "last-mile", "routing"],
+    "description": "Startup developing next-generation dispatch and route intelligence. Building AI that adapts to real-time constraints and learns from driver behavior to reduce FADR."
+  },
+  {
+    "id": "exh-017",
+    "company": "Artyc",
+    "boothNumber": "D102",
+    "categories": ["startup", "technology", "last-mile", "grocery"],
+    "description": "Temperature-controlled packaging and cold chain solutions for last-mile delivery. Reusable PCM-based cold packs for grocery, pharma, and meal kit delivery."
+  },
+  {
+    "id": "exh-018",
+    "company": "InLog Robot Technology",
+    "boothNumber": "D104",
+    "categories": ["startup", "technology", "warehouse", "last-mile"],
+    "description": "Autonomous indoor and outdoor logistics robots. Warehouse AMRs and sidewalk delivery robots for urban last-mile. Currently in pilot with major US retailers."
+  },
+  {
+    "id": "exh-019",
+    "company": "Rappel",
+    "boothNumber": "D106",
+    "categories": ["startup", "technology", "returns", "last-mile"],
+    "description": "Returns logistics platform that makes reverse logistics profitable. Real-time returns routing, refurbishment orchestration, and resale channel integration."
+  },
+  {
+    "id": "exh-020",
+    "company": "Seeteria",
+    "boothNumber": "D108",
+    "categories": ["startup", "technology", "visibility", "customer-experience"],
+    "description": "AI-powered delivery verification and fraud prevention. Computer vision-based proof of delivery that reduces claims disputes and protects carrier ratings."
+  },
+  {
+    "id": "exh-021",
+    "company": "Delivery Solutions",
+    "boothNumber": "E100",
+    "categories": ["technology", "last-mile", "retail", "carrier"],
+    "description": "Unified delivery orchestration platform for omnichannel retailers. Same-day, next-day, curbside pickup, and BOPIS management from a single platform."
+  },
+  {
+    "id": "exh-022",
+    "company": "Narvar",
+    "boothNumber": "E102",
+    "categories": ["technology", "returns", "customer-experience", "retail"],
+    "description": "Post-purchase customer experience platform. Returns management, proactive tracking notifications, and delivery experience optimization for retail brands."
+  },
+  {
+    "id": "exh-023",
+    "company": "Loop Returns",
+    "boothNumber": "E104",
+    "categories": ["technology", "returns", "retail"],
+    "description": "Returns management platform for e-commerce brands. Automates exchanges, keeps revenue in-house, and optimizes return routing to reduce reverse logistics cost."
+  },
+  {
+    "id": "exh-024",
+    "company": "Optoro",
+    "boothNumber": "E106",
+    "categories": ["technology", "returns", "retail", "3pl"],
+    "description": "Returns optimization platform and reverse logistics network. Helps retailers maximize recovery value on returned merchandise through intelligent routing to highest-value channels."
+  },
+  {
+    "id": "exh-025",
+    "company": "Happy Returns",
+    "boothNumber": "E108",
+    "categories": ["technology", "returns", "retail", "carrier"],
+    "description": "Box-free, label-free return drop-off network with 10,000+ locations. Partners include FedEx, Ulta, and hundreds of e-commerce brands. Owned by UPS."
+  },
+  {
+    "id": "exh-026",
+    "company": "Loki 3PL",
+    "boothNumber": "F100",
+    "categories": ["3pl", "last-mile", "big-bulky", "warehouse"],
+    "description": "Tech-forward 3PL specializing in furniture, fitness equipment, and big & bulky retail fulfillment. White-glove delivery, returns handling, and damage reduction programs."
+  },
+  {
+    "id": "exh-027",
+    "company": "Red Stag Fulfillment",
+    "boothNumber": "F102",
+    "categories": ["3pl", "warehouse", "last-mile", "big-bulky"],
+    "description": "Fulfillment for heavy and oversized products. Guaranteed accuracy and damage-free shipping. Specializes in products over 10 lbs that other 3PLs struggle with."
+  },
+  {
+    "id": "exh-028",
+    "company": "AFM Logistics",
+    "boothNumber": "F104",
+    "categories": ["carrier", "last-mile", "big-bulky"],
+    "description": "Final mile carrier focused on furniture, appliances, and big & bulky home delivery. White-glove service, room of choice delivery, assembly, and haul-away."
+  },
+  {
+    "id": "exh-029",
+    "company": "JT Logistics",
+    "boothNumber": "F106",
+    "categories": ["carrier", "last-mile", "big-bulky", "3pl"],
+    "description": "Regional last-mile carrier for furniture, appliances, and mattresses. Operates in 15+ markets with owner-operator and employee delivery teams."
+  },
+  {
+    "id": "exh-030",
+    "company": "EV Bots",
+    "boothNumber": "G100",
+    "categories": ["startup", "ev", "technology", "last-mile"],
+    "description": "Electric delivery robots and autonomous vehicle platforms for urban last-mile. Sidewalk delivery bots and small cargo EV carriers for dense urban markets."
+  },
+  {
+    "id": "exh-031",
+    "company": "NuPort Robotics",
+    "boothNumber": "G102",
+    "categories": ["startup", "technology", "ev", "last-mile"],
+    "description": "Autonomous trucking and delivery automation. Developing Level 4 autonomous trucks for yard management and last-mile freight delivery."
+  },
+  {
+    "id": "exh-032",
+    "company": "DEXA / Drone Express",
+    "boothNumber": "G104",
+    "categories": ["startup", "technology", "last-mile", "ev"],
+    "description": "FAA-approved drone delivery network for retail and healthcare last-mile. Commercial drone delivery in multiple US markets with same-day capabilities."
+  },
+  {
+    "id": "exh-033",
+    "company": "Gateway Fleets",
+    "boothNumber": "G106",
+    "categories": ["technology", "ev", "carrier", "last-mile"],
+    "description": "EV fleet management and charging infrastructure platform. Helps carriers and shippers transition to electric delivery vehicles with route optimization for EV constraints."
+  },
+  {
+    "id": "exh-034",
+    "company": "Dispatch",
+    "boothNumber": "H100",
+    "categories": ["technology", "last-mile", "carrier", "routing"],
+    "description": "On-demand delivery platform connecting businesses to local delivery networks. Same-day delivery APIs and routing tools for retailers and distributors."
+  },
+  {
+    "id": "exh-035",
+    "company": "UNIUNI",
+    "boothNumber": "H102",
+    "categories": ["carrier", "last-mile", "parcel"],
+    "description": "Canada's largest parcel carrier for e-commerce. Fast last-mile delivery network covering major Canadian markets with competitive rates and real-time tracking."
+  },
+  {
+    "id": "exh-036",
+    "company": "Amazon Multi-Channel Fulfillment",
+    "boothNumber": "H104",
+    "categories": ["3pl", "last-mile", "technology", "retail"],
+    "description": "Fulfillment and delivery services for brands selling outside Amazon. Use Amazon's fulfillment network and delivery capabilities for your own website and other channels."
+  },
+  {
+    "id": "exh-037",
+    "company": "Doorstep.ai",
+    "boothNumber": "H106",
+    "categories": ["startup", "technology", "last-mile", "routing"],
+    "description": "AI dispatch engine that automates driver assignment and stop sequencing. Reduces dispatcher workload by 80% while improving on-time delivery rates."
+  },
+  {
+    "id": "exh-038",
+    "company": "Track-POD",
+    "boothNumber": "I100",
+    "categories": ["technology", "last-mile", "routing", "visibility"],
+    "description": "Delivery management software with route planning, electronic proof of delivery, and real-time customer notifications. Scales from 10 to 10,000 drivers."
+  },
+  {
+    "id": "exh-039",
+    "company": "FourKites",
+    "boothNumber": "I102",
+    "categories": ["technology", "visibility", "tms", "carrier"],
+    "description": "Real-time supply chain visibility platform. Tracks shipments across all modes and carriers, predicts ETAs with AI, and automates exception management."
+  },
+  {
+    "id": "exh-040",
+    "company": "Shipium",
+    "boothNumber": "I104",
+    "categories": ["technology", "last-mile", "carrier", "tms"],
+    "description": "Shipping platform that helps e-commerce retailers reduce costs and improve delivery speed. Multi-carrier optimization, rate shopping, and carrier performance analytics."
+  },
+  {
+    "id": "exh-041",
+    "company": "Catalysitcs",
+    "boothNumber": "I106",
+    "categories": ["technology", "carrier", "3pl", "last-mile"],
+    "description": "Strategic logistics and supply chain advisory firm. Specializes in carrier network design, last-mile strategy, and logistics technology selection for mid-market companies."
+  },
+  {
+    "id": "exh-042",
+    "company": "DispatchTrack (Booth 2)",
+    "boothNumber": "J100",
+    "categories": ["technology", "big-bulky", "last-mile", "routing"],
+    "description": "Big & bulky delivery optimization suite. Appointment scheduling, route planning, customer communication, and proof of delivery for furniture and appliance retailers."
+  },
+  {
+    "id": "exh-043",
+    "company": "Veho",
+    "boothNumber": "J102",
+    "categories": ["carrier", "last-mile", "parcel", "technology"],
+    "description": "Tech-enabled parcel carrier with same-day and next-day delivery in 40+ US markets. Predictable pricing, 99%+ on-time rates, and premium customer experience."
+  },
+  {
+    "id": "exh-044",
+    "company": "Dropoff",
+    "boothNumber": "J104",
+    "categories": ["carrier", "last-mile", "technology"],
+    "description": "Same-day delivery service for businesses. Professional couriers, real-time tracking, and a simple API. Serves healthcare, retail, and food delivery markets."
+  },
+  {
+    "id": "exh-045",
+    "company": "Joules Ventures",
+    "boothNumber": "K100",
+    "categories": ["startup", "ev", "technology", "last-mile"],
+    "description": "Early-stage investor and operator in sustainable last-mile logistics. Backing startups building EV delivery infrastructure, autonomous delivery, and green supply chain tech."
+  },
+  {
+    "id": "exh-046",
+    "company": "Last2First",
+    "boothNumber": "K102",
+    "categories": ["technology", "carrier", "last-mile", "visibility"],
+    "description": "Logistics intelligence platform and media network. Real-time carrier performance benchmarks, market intelligence, and industry news for last-mile operators."
+  },
+  {
+    "id": "exh-047",
+    "company": "Apex Tide Consulting",
+    "boothNumber": "K104",
+    "categories": ["technology", "3pl", "last-mile"],
+    "description": "Supply chain and logistics consulting firm. Specializes in last-mile network optimization, 3PL RFPs, and technology implementation for mid-market to enterprise."
+  },
+  {
+    "id": "exh-048",
+    "company": "Ortec",
+    "boothNumber": "L100",
+    "categories": ["technology", "routing", "tms", "last-mile"],
+    "description": "Advanced route planning and optimization software. AI-driven scheduling for complex delivery operations including time windows, multi-depot, and big & bulky routing."
+  },
+  {
+    "id": "exh-049",
+    "company": "Bringg",
+    "boothNumber": "L102",
+    "categories": ["technology", "last-mile", "carrier", "retail"],
+    "description": "Delivery management platform for enterprises. Connects retailers to a network of delivery providers and gives control over the last-mile customer experience."
+  },
+  {
+    "id": "exh-050",
+    "company": "Onfleet",
+    "boothNumber": "L104",
+    "categories": ["technology", "last-mile", "routing", "visibility"],
+    "description": "Modern delivery management software for teams of all sizes. Real-time driver tracking, route optimization, customer notifications, and API-first integration."
+  }
+]

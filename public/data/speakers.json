@@ -1,1 +1,1029 @@
-[]
+[
+  {
+    "id": "spk-001",
+    "name": "Nitin Agarwal",
+    "company": "Mckesson Corporation",
+    "role": "Director - IT Supply Chain Solutions",
+    "sessions": [
+      "session-016",
+      "session-020"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-002",
+    "name": "Doug Allvine",
+    "company": "3S Consulting",
+    "role": "",
+    "sessions": [
+      "session-021",
+      "session-034"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-003",
+    "name": "Rich Amsinger",
+    "company": "Manymoons",
+    "role": "Co-Founder",
+    "sessions": [
+      "session-056"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-004",
+    "name": "Talal Asad",
+    "company": "Brand Together LLC",
+    "role": "President / Founder",
+    "sessions": [
+      "session-091"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-005",
+    "name": "Satpreet Aulakh",
+    "company": "GreenMile AI",
+    "role": "CEO",
+    "sessions": [
+      "session-082"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-006",
+    "name": "Craig Bailey",
+    "company": "Cardinal Health",
+    "role": "Director Logistics/ Operations",
+    "sessions": [
+      "session-049"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-007",
+    "name": "Michelle Bailey",
+    "company": "Home Delivery, NXTPoint Logistics",
+    "role": "COO",
+    "sessions": [
+      "session-022"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-008",
+    "name": "Andrew Balthrop",
+    "company": "University of Tennessee",
+    "role": "Assistant Professor",
+    "sessions": [
+      "session-030"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-009",
+    "name": "Anupam Bandyopadhyay",
+    "company": "CSCMP",
+    "role": "Vice President Atlanta Chapter",
+    "sessions": [
+      "session-048",
+      "session-081"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-010",
+    "name": "Sarah Barnes-Humphrey",
+    "company": "Let's Talk Supply Chain",
+    "role": "Founder/Host",
+    "sessions": [
+      "session-005"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-011",
+    "name": "Christine Barnhart",
+    "company": "Association for Supply Chain Management",
+    "role": "Member Board of Directors",
+    "sessions": [
+      "session-045",
+      "session-070"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-012",
+    "name": "Jordanne Barrett",
+    "company": "AT&T",
+    "role": "Business Information Security Officer",
+    "sessions": [
+      "session-089"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-013",
+    "name": "Bryan Barringer",
+    "company": "The Company Lab (CO.LAB)",
+    "role": "",
+    "sessions": [
+      "session-010",
+      "session-069",
+      "session-090"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-014",
+    "name": "Bob Bauer",
+    "company": "DispatchTrack",
+    "role": "V.P. of Sales & Co-Founder",
+    "sessions": [
+      "session-013"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-015",
+    "name": "Paul Bingham",
+    "company": "Western Governors University",
+    "role": "Senior Vice President of the School of Technology",
+    "sessions": [
+      "session-023"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-016",
+    "name": "Mike Bogovich",
+    "company": "Ulta Beauty",
+    "role": "Vice President of Distribution",
+    "sessions": [
+      "session-054"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-017",
+    "name": "Nathan Browne",
+    "company": "Werner Enterprises",
+    "role": "Senior Vice President - Intermodal & Final Mile",
+    "sessions": [
+      "session-079"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-018",
+    "name": "Sam Brundrett",
+    "company": "Etsy",
+    "role": "Sustainability Lead",
+    "sessions": [
+      "session-051"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-019",
+    "name": "Adam Bryant",
+    "company": "Jitsu",
+    "role": "CEO",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-020",
+    "name": "Jason Burns",
+    "company": "Last2First",
+    "role": "Last2First Podcast/L2F Huddle Founder",
+    "sessions": [
+      "session-065",
+      "session-089"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-021",
+    "name": "Lorena Camargo",
+    "company": "Customized Logistics & Delivery Association",
+    "role": "President",
+    "sessions": [
+      "session-071"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-022",
+    "name": "Benjamin Chalier",
+    "company": "Relocalize",
+    "role": "CRO",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-023",
+    "name": "Naveen Chandra",
+    "company": "EssilorLuxottica",
+    "role": "Director of Distribution",
+    "sessions": [
+      "session-021"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-024",
+    "name": "Eric Chesson",
+    "company": "OnTrac",
+    "role": "Vice President of B2B Account Management",
+    "sessions": [
+      "session-049"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-025",
+    "name": "Lucas Coelho",
+    "company": "TW Logistics",
+    "role": "Account Manager USA",
+    "sessions": [
+      "session-091"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-026",
+    "name": "Antonio Colicchio",
+    "company": "The Returns Guy LLC",
+    "role": "Founder",
+    "sessions": [
+      "session-059"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-027",
+    "name": "Bart Coppelmans",
+    "company": "Head of Product, HERE North America, LLC",
+    "role": "Sr. Director",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-028",
+    "name": "Kenneth Currie",
+    "company": "Partner Sales, Descartes Systems Group",
+    "role": "Vice President",
+    "sessions": [
+      "session-007"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-029",
+    "name": "Eileen Dabrowski",
+    "company": "Apex Tide Consulting",
+    "role": "Founder/CEO",
+    "sessions": [
+      "session-066",
+      "session-070"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-030",
+    "name": "Jay De Sieno",
+    "company": "Edible Brands",
+    "role": "Senior Supply Chain Manager",
+    "sessions": [
+      "session-024"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-031",
+    "name": "Josh DeLay",
+    "company": "J.B. Hunt Final Mile",
+    "role": "Vice President",
+    "sessions": [
+      "session-047"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-032",
+    "name": "Ankit Dhanani",
+    "company": "Purolator",
+    "role": "Director Operations Excellence & Network Strategy",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-033",
+    "name": "Jenny Dissen",
+    "company": "Engagement, NOAA Cooperative Institute / NC State University",
+    "role": "Director",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-034",
+    "name": "Jon Doolen",
+    "company": "Doolen Strategy Partners",
+    "role": "Chief Strategy Leader",
+    "sessions": [
+      "session-073"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-035",
+    "name": "Pete Elmgren",
+    "company": "DispatchTrack",
+    "role": "President",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-036",
+    "name": "Maryjane Fanizzi",
+    "company": "Mattress Firm",
+    "role": "VP Logistics",
+    "sessions": [
+      "session-005",
+      "session-070"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-037",
+    "name": "Justin Felinski",
+    "company": "Fidelitone",
+    "role": "Regional Manager",
+    "sessions": [
+      "session-091"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-038",
+    "name": "Claudia Freed",
+    "company": "EALgreen",
+    "role": "President & CEO",
+    "sessions": [
+      "session-030",
+      "session-063",
+      "session-074"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-039",
+    "name": "Max Garland",
+    "company": "Industry Dive",
+    "role": "Lead Reporter",
+    "sessions": [
+      "session-002",
+      "session-003"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-040",
+    "name": "Leilani Gonzalez",
+    "company": "Zero Emission Transportation Association (ZETA)",
+    "role": "Chief of Staff and Policy Director",
+    "sessions": [
+      "session-069"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-041",
+    "name": "Sam Gorgone",
+    "company": "ShipScience LLC",
+    "role": "VP of Sales",
+    "sessions": [
+      "session-066"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-042",
+    "name": "Marc Gorlin",
+    "company": "Roadie",
+    "role": "Founder & Chief Executive Officer",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-043",
+    "name": "Daniel Gray",
+    "company": "GeekBooks",
+    "role": "Producer",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-044",
+    "name": "Virind Gujral",
+    "company": "EV Bots, Inc.",
+    "role": "CEO and Co-Founder",
+    "sessions": [
+      "session-065",
+      "session-075"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-045",
+    "name": "Eric Heath",
+    "company": "Bluejay Advisors",
+    "role": "Managing Director",
+    "sessions": [
+      "session-083"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-046",
+    "name": "Courtney Herda",
+    "company": "LeadCoverage",
+    "role": "VP of Digital Strategy",
+    "sessions": [
+      "session-074",
+      "session-092"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-047",
+    "name": "Brandon Hines",
+    "company": "Solutions Engineering, RBW Logistics",
+    "role": "Director",
+    "sessions": [
+      "session-081"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-048",
+    "name": "Sheri Hinish",
+    "company": "CEO Supply Chain Revolution Global, Supply Chain Revolution Podcast",
+    "role": "Founder",
+    "sessions": [
+      "session-051",
+      "session-070"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-049",
+    "name": "Okan Inaltay",
+    "company": "Head of AI & Software, ComCap",
+    "role": "Managing Director",
+    "sessions": [
+      "session-083"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-050",
+    "name": "Nirmal Jingar",
+    "company": "Wayfair",
+    "role": "Senior Engineering Leader",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-051",
+    "name": "Julie Johnson",
+    "company": "Joules Ventures",
+    "role": "CEO",
+    "sessions": [
+      "session-052",
+      "session-075"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-052",
+    "name": "Kerim Kfuri",
+    "company": "The Atlas Network",
+    "role": "President & CEO",
+    "sessions": [
+      "session-015",
+      "session-046",
+      "session-052",
+      "session-090"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-053",
+    "name": "Devin Knight",
+    "company": "ShipMonk",
+    "role": "Vice President Transportation & Planning",
+    "sessions": [
+      "session-093"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-054",
+    "name": "Matt Krueger",
+    "company": "Analytics & Technology, Buffalo Games & Subsidiaries",
+    "role": "SVP of Digital Commerce",
+    "sessions": [
+      "session-054"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-055",
+    "name": "Pinar Kucukyilmaz",
+    "company": "Continuous Improvement, FreshDirect",
+    "role": "Director",
+    "sessions": [
+      "session-057"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-056",
+    "name": "Steve LaPointe",
+    "company": "Star Furniture",
+    "role": "SR. Director of Distribution Services",
+    "sessions": [
+      "session-031"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-057",
+    "name": "Karl Larsen",
+    "company": "Novus Global",
+    "role": "Executive Coach",
+    "sessions": [
+      "session-023"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-058",
+    "name": "Andrew Leone",
+    "company": "Dispatch",
+    "role": "CEO",
+    "sessions": [
+      "session-020"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-059",
+    "name": "Tony Lynch",
+    "company": "Pennsylvania State University, Harrisburg",
+    "role": "Assistant Professor Supply Chain Management",
+    "sessions": [
+      "session-092"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-060",
+    "name": "Elise MARQUIS",
+    "company": "Chameleon Collective",
+    "role": "PARTNER - EXECUTIVE RECRUITER",
+    "sessions": [
+      "session-023"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-061",
+    "name": "Jack McCrum",
+    "company": "Optimization & Analytics, Reveel",
+    "role": "Director",
+    "sessions": [
+      "session-036"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-062",
+    "name": "Tan Miller",
+    "company": "Rider University",
+    "role": "Professor",
+    "sessions": [
+      "session-076"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-063",
+    "name": "Kaleb Mondragon",
+    "company": "ShipOffers",
+    "role": "VP of Logistics",
+    "sessions": [
+      "session-093"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-064",
+    "name": "Tanner Morley",
+    "company": "HelloFresh",
+    "role": "Associate Director of Last Mile Strategy",
+    "sessions": [
+      "session-007",
+      "session-014",
+      "session-072"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-065",
+    "name": "Victor Mraz",
+    "company": "Diverse Logistics and Distribution, LLC",
+    "role": "COO",
+    "sessions": [
+      "session-022"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-066",
+    "name": "Gabrielle Murabito",
+    "company": "Reveel, Reveel",
+    "role": "Senior Account Manager",
+    "sessions": [
+      "session-036"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-067",
+    "name": "Krishnaveni Namasivayam",
+    "company": "IEEE",
+    "role": "Senior Member",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-068",
+    "name": "Steve Nielson",
+    "company": "Gardner-White Furniture",
+    "role": "Director of Operational Excellence",
+    "sessions": [
+      "session-031"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-069",
+    "name": "Jamin Nieri",
+    "company": "Trove Recommerce, Inc.",
+    "role": "Chief Operations Officer",
+    "sessions": [
+      "session-074"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-070",
+    "name": "Melissa Pacheco",
+    "company": "Chameleon Collective",
+    "role": "Executive Recruiter",
+    "sessions": [
+      "session-048"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-071",
+    "name": "Roman Pennell",
+    "company": "LoopDeco",
+    "role": "CEO",
+    "sessions": [
+      "session-082"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-072",
+    "name": "Emily Phillips",
+    "company": "E.MISSION Advisory",
+    "role": "Principal & Founder",
+    "sessions": [
+      "session-069"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-073",
+    "name": "Prabhat Rao Pinnaka",
+    "company": "Lowes",
+    "role": "Lead Product Manager",
+    "sessions": [
+      "session-024",
+      "session-038",
+      "session-048"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-074",
+    "name": "Nick Porter",
+    "company": "Maryland Port Administration",
+    "role": "Business Development Manager",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-075",
+    "name": "Vijay Ramachandran",
+    "company": "Product Strategy & Marketplaces, OnTrac",
+    "role": "VP Marketing",
+    "sessions": [
+      "session-039"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-076",
+    "name": "Venkates (Venkat) Ramalingam",
+    "company": "Technology Implementations, GXO Logistics Inc",
+    "role": "Manager",
+    "sessions": [
+      "session-038",
+      "session-074"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-077",
+    "name": "Anne Reinke",
+    "company": "Intermodal Association of North America",
+    "role": "President & CEO",
+    "sessions": [
+      "session-046"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-078",
+    "name": "Jason Roberts",
+    "company": "Digital Enablement, MODE Global",
+    "role": "SVP",
+    "sessions": [
+      "session-073"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-079",
+    "name": "Jeff Roby",
+    "company": "Jeff Roby Leadership",
+    "role": "CEO & Founder",
+    "sessions": [
+      "session-009",
+      "session-024"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-080",
+    "name": "Michael Roeth",
+    "company": "North American Council For Freight Efficiency",
+    "role": "Executive Director",
+    "sessions": [
+      "session-075"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-081",
+    "name": "Kristy Ryan",
+    "company": "Move For Hunger",
+    "role": "Chief Operating Officer",
+    "sessions": [
+      "session-023"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-082",
+    "name": "Dan Schwartz",
+    "company": "Coldtrack",
+    "role": "VP Supply Chain",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-083",
+    "name": "Gloria Seckler Osuna",
+    "company": "Operations Data & Strategy, GOAT Group",
+    "role": "Director",
+    "sessions": [
+      "session-036"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-084",
+    "name": "Wally Shaw",
+    "company": "Red Stag Fulfillment",
+    "role": "CEO",
+    "sessions": [
+      "session-081"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-085",
+    "name": "Hannah Sieber",
+    "company": "Artyc",
+    "role": "Co Founder Chief Executive Officer",
+    "sessions": [
+      "session-017",
+      "session-072"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-086",
+    "name": "Warner Siebert",
+    "company": "Coldtrack",
+    "role": "Chief Revenue Officer",
+    "sessions": [],
+    "linkedin": null
+  },
+  {
+    "id": "spk-087",
+    "name": "Arin Simpson",
+    "company": "RealCold.com",
+    "role": "Vice President Strategic Partnerships",
+    "sessions": [
+      "session-072"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-088",
+    "name": "Kimberly Smith",
+    "company": "S & S Activewear",
+    "role": "Sr Director Global Customs and Transportation",
+    "sessions": [
+      "session-090"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-089",
+    "name": "Karolina Smith",
+    "company": "Raterunners",
+    "role": "President",
+    "sessions": [
+      "session-028",
+      "session-060"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-090",
+    "name": "Philip Spelman",
+    "company": "Optym",
+    "role": "VP of Sales",
+    "sessions": [
+      "session-077"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-091",
+    "name": "Jonathon Stevens",
+    "company": "Warehouse Anywhere",
+    "role": "CTO",
+    "sessions": [
+      "session-083"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-092",
+    "name": "Ben Stickle",
+    "company": "Middle Tennessee State University",
+    "role": "Professor of Criminal Justice",
+    "sessions": [
+      "session-071",
+      "session-080"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-093",
+    "name": "Laura Storch Pelletier",
+    "company": "Fuku",
+    "role": "Director of Supply Chain",
+    "sessions": [
+      "session-021",
+      "session-073"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-094",
+    "name": "Brian Straight",
+    "company": "Supply Chain Management - Peerless Media",
+    "role": "Editor in Chief",
+    "sessions": [
+      "session-046"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-095",
+    "name": "Angela Strand",
+    "company": "Gateway Fleets",
+    "role": "Board Chair",
+    "sessions": [
+      "session-075",
+      "session-079"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-096",
+    "name": "Bill Thayer",
+    "company": "CEO, Fillogic",
+    "role": "Founder",
+    "sessions": [
+      "session-092"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-097",
+    "name": "Jeff Tran",
+    "company": "Lecangs Fullfillment",
+    "role": "Vice President",
+    "sessions": [
+      "session-067"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-098",
+    "name": "Madhusudan S Vadigicherla",
+    "company": "Supply Chain Systems, Integra LifeSciences Corporation",
+    "role": "Director",
+    "sessions": [
+      "session-049"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-099",
+    "name": "Nicole Ward",
+    "company": "African American Women Trucking Association",
+    "role": "Co-Founder & President",
+    "sessions": [
+      "session-023",
+      "session-070"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-100",
+    "name": "Allyssa Wickstrom",
+    "company": "General Counsel, Wineshipping",
+    "role": "CLO",
+    "sessions": [
+      "session-071"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-101",
+    "name": "Jeff Wolpov",
+    "company": "E-commerce & Last Mile, Ryder System, Inc.",
+    "role": "Senior Vice President",
+    "sessions": [
+      "session-079"
+    ],
+    "linkedin": null
+  },
+  {
+    "id": "spk-102",
+    "name": "Liz Young",
+    "company": "The Wall Street Journal & Dow Jones Risk Journal",
+    "role": "Logistics Reporter",
+    "sessions": [
+      "session-053",
+      "session-054",
+      "session-056"
+    ],
+    "linkedin": null
+  }
+]
