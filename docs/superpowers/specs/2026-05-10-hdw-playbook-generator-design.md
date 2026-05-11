@@ -40,7 +40,7 @@ Browser → renders playbook modules
 | AI | Gemini 1.5 Flash | Free tier (1,500 req/day), 1M token context window |
 | AI SDK | `@google/generative-ai` | Official Google SDK, server-side only |
 | Serverless | Netlify Functions | One function handles all phases; free tier covers 200+ completions/day |
-| PDF export | `html2canvas` + `jsPDF` | Client-side, no server needed |
+| PDF export | `html2canvas` + `jsPDF` | Client-side, no server needed. Exports all 8 modules as a single multi-page PDF. Each module is captured as a separate canvas element to avoid html2canvas scroll/clipping issues on long pages. |
 | Storage | `localStorage` | Intake persists across phases; no auth, no DB |
 | Deployment | Netlify | Auto-deploy from GitHub; `*.netlify.app` URL for launch |
 
@@ -48,10 +48,21 @@ Browser → renders playbook modules
 - No auth, no email gate, no database — friction-free by design
 - API key (`GEMINI_API_KEY`) lives only in Netlify environment variables, never in client code
 - All HDW data bundled as static JSON at build time — no live data fetching
+- localStorage key: `hdw2026_intake` — stores the full intake JSON. If a returning user completes a new intake, the key is overwritten with a confirmation prompt ("Start a new playbook? This will replace your saved one.")
 
 ---
 
 ## Data Layer
+
+### Data Scraping Plan
+
+**Target site:** `https://www.homedeliveryworld.com` (sessions, speakers, and exhibitor pages). Chrome is available for browsing and scraping during the build.
+
+**Scraping method:** Use Claude in Chrome MCP to navigate the HDW website and extract structured data from agenda, speaker, and exhibitor pages. Manual cleanup applied after extraction to normalize formats, fill gaps, and add persona tags. If a page blocks automated scraping, fall back to manual copy-paste into the JSON structure.
+
+**Fallback:** If session/exhibitor data is incomplete or unavailable at scrape time, placeholder data (5–10 representative entries per category) is used to unblock the frontend build. Full data is populated before launch.
+
+**Timeline risk:** Data build is the critical path for Task 1. If scraping takes longer than expected, scaffold the app with placeholder data in parallel so the frontend build isn't blocked.
 
 ### Four Static JSON Files
 
@@ -202,9 +213,13 @@ The function does NOT inject all 100+ sessions into every prompt. It filters fir
 
 This keeps the prompt focused, improves output quality, and avoids context window issues even with large data files.
 
+### Persona Detection
+
+Persona is selected by the user explicitly in Step 1 of the intake wizard via a dropdown with five options. The UI auto-suggests a persona based on the user's role title using simple keyword matching (e.g., "VP Supply Chain" → suggests "Retailer/Shipper"; "Account Executive" + company type → suggests "Tech Vendor") — but the user always confirms or changes the selection before proceeding. There is no AI pre-call for persona detection; it's a UI affordance only.
+
 ### Persona System Prompts
 
-Five base system prompts, selected by detected persona:
+Five base system prompts, selected by confirmed persona:
 - `retailer-shipper`
 - `carrier-3pl`
 - `tech-vendor`
@@ -217,6 +232,40 @@ Each base prompt establishes the lens through which HDW should be evaluated. Use
 
 Single Gemini API call returning all 8 modules as structured JSON. Keeping it as one call (rather than per-module) reduces latency and keeps the context coherent across modules (e.g., sessions recommended in Module 2 are reflected in the schedule in Module 6).
 
+### Phase 2 Response Shapes
+
+**sessionDebrief** — input: `{ sessionTitle }` + intake context
+```json
+{ "takeaways": ["string x3"], "conversationStarters": ["string x3"], "linkedInInsight": "string" }
+```
+
+**peopleLookup** — input: `{ nameOrCompany }` + intake context
+```json
+{ "who": "string", "whyAtHDW": "string", "whatTheyDo": "string", "conversationAngle": "string" }
+```
+
+**boothScan** — input: `{ boothNumberOrCompany }` + intake context
+```json
+{ "whatTheyDo": "string", "tier": "1 | 2 | 3", "tierReason": "string", "questionToAsk": "string" }
+```
+
+**conflictResolver** — input: `{ sessionA, sessionB }` + intake context
+```json
+{ "recommendation": "A | B", "reason": "string", "alternativeIfMissed": "string" }
+```
+
+### Phase 3 Response Shapes
+
+**followUpEmail** — input: `{ name, company, role, whatDiscussed, desiredNextStep }` + intake context
+```json
+{ "subject": "string", "body": "string" }
+```
+
+**linkedInRecap** — input: `{ observations: ["string x3-5"], honestTake: "string" }` + intake context
+```json
+{ "post": "string (200-250 words)" }
+```
+
 ### Phase 2 & 3 Generation
 
 Lightweight per-tool calls. Original intake pulled from localStorage and injected as context so outputs remain personalized to the user's original goals ("Based on your FADR focus...").
@@ -225,6 +274,7 @@ Lightweight per-tool calls. Original intake pulled from localStorage and injecte
 
 - Gemini returns malformed JSON → function retries once with explicit JSON formatting instruction
 - Second failure → function returns `{ "error": "generation_failed" }` → frontend shows friendly error with "Try again" button
+- Gemini rate limit exceeded (HTTP 429) → function returns `{ "error": "rate_limited" }` → frontend shows "We're getting a lot of requests right now — please try again in a few minutes"
 - No silent failures
 
 ---
