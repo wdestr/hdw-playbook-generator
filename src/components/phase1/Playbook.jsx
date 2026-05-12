@@ -1,5 +1,7 @@
-import { useRef } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { loadIntake } from '../../lib/storage'
+import { savePlaybook, supabaseEnabled } from '../../lib/supabase'
+import { notificationsSupported, permissionGranted, requestPermission, scheduleReminders } from '../../lib/notifications'
 
 const MODULES = [
   { id: 'brief', label: '📋 Conference Brief', icon: '📋' },
@@ -15,6 +17,18 @@ const MODULES = [
 export default function Playbook({ playbook, onStartOver, onSwitchPhase }) {
   const intake = loadIntake()
   const moduleRefs = useRef({})
+  const [shareState, setShareState] = useState('idle') // idle | saving | copied | error
+  const [notifState, setNotifState] = useState(() =>
+    permissionGranted() ? 'on' : 'off'
+  )
+  const [reminderCount, setReminderCount] = useState(0)
+
+  useEffect(() => {
+    if (permissionGranted() && playbook?.schedule) {
+      const n = scheduleReminders(playbook.schedule)
+      setReminderCount(n)
+    }
+  }, [playbook])
 
   function scrollTo(id) {
     moduleRefs.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -23,6 +37,33 @@ export default function Playbook({ playbook, onStartOver, onSwitchPhase }) {
   async function handleDownloadPDF() {
     const { exportPlaybookPDF } = await import('../../lib/pdfExport')
     exportPlaybookPDF(moduleRefs.current, intake?.name || 'HDW Playbook')
+  }
+
+  async function handleShare() {
+    setShareState('saving')
+    try {
+      const id = await savePlaybook(intake, playbook)
+      const url = `${window.location.origin}/?id=${id}`
+      await navigator.clipboard.writeText(url)
+      setShareState('copied')
+      setTimeout(() => setShareState('idle'), 3000)
+    } catch {
+      setShareState('error')
+      setTimeout(() => setShareState('idle'), 3000)
+    }
+  }
+
+  async function handleNotifications() {
+    if (notifState === 'on') {
+      setNotifState('off')
+      return
+    }
+    const granted = await requestPermission()
+    if (granted && playbook?.schedule) {
+      const n = scheduleReminders(playbook.schedule)
+      setReminderCount(n)
+      setNotifState('on')
+    }
   }
 
   return (
@@ -36,7 +77,29 @@ export default function Playbook({ playbook, onStartOver, onSwitchPhase }) {
             </h1>
             <p className="text-xs text-gray-500">Home Delivery World 2026 · Nashville</p>
           </div>
-          <div className="flex gap-3">
+          <div className="flex gap-2">
+            {notificationsSupported() && (
+              <button
+                onClick={handleNotifications}
+                title={notifState === 'on' ? `${reminderCount} reminders set` : 'Enable session reminders'}
+                className={`text-sm py-2 px-3 rounded-lg transition-colors ${
+                  notifState === 'on'
+                    ? 'bg-green-900/40 text-green-400 border border-green-800'
+                    : 'bg-gray-800 hover:bg-gray-700 text-gray-400'
+                }`}
+              >
+                {notifState === 'on' ? `🔔 ${reminderCount}` : '🔕'}
+              </button>
+            )}
+            {supabaseEnabled && (
+              <button
+                onClick={handleShare}
+                disabled={shareState === 'saving'}
+                className="bg-gray-800 hover:bg-gray-700 text-gray-300 text-sm py-2 px-4 rounded-lg transition-colors disabled:opacity-50"
+              >
+                {shareState === 'saving' ? 'Saving…' : shareState === 'copied' ? '✓ Link copied!' : shareState === 'error' ? 'Error' : '↗ Share'}
+              </button>
+            )}
             <button
               onClick={handleDownloadPDF}
               className="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 px-4 rounded-lg transition-colors"

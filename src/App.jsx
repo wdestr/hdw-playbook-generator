@@ -1,22 +1,46 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { usePhase } from './hooks/usePhase'
-import { loadIntake, clearIntake } from './lib/storage'
+import { loadIntake, saveIntake, clearIntake } from './lib/storage'
+import { loadPlaybook, supabaseEnabled } from './lib/supabase'
 import Landing from './components/Landing'
 import PhaseSelector from './components/PhaseSelector'
 
-// Lazy-loaded heavy components
 import IntakeWizard from './components/phase1/IntakeWizard'
 import GeneratingState from './components/phase1/GeneratingState'
 import Playbook from './components/phase1/Playbook'
 import OnFloorAssistant from './components/phase2/OnFloorAssistant'
 import PostConference from './components/phase3/PostConference'
 
-// view: 'landing' | 'phase-selector' | 'intake' | 'returning' | 'generating' | 'playbook' | 'phase2' | 'phase3'
+// view: 'loading' | 'landing' | 'phase-selector' | 'intake' | 'returning' | 'generating' | 'playbook' | 'phase2' | 'phase3'
 
 export default function App() {
-  const [view, setView] = useState('landing')
+  const [view, setView] = useState('loading')
   const [playbook, setPlaybook] = useState(null)
   const { activePhase, selectPhase, phaseStatus } = usePhase()
+
+  // On mount: check for ?id= share URL and load from Supabase
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const shareId = params.get('id')
+
+    if (shareId && supabaseEnabled) {
+      loadPlaybook(shareId)
+        .then(data => {
+          if (data) {
+            saveIntake(data.intake)
+            setPlaybook(data.playbook)
+            setView('playbook')
+            // Clean the URL without reloading
+            window.history.replaceState({}, '', '/')
+          } else {
+            setView('landing')
+          }
+        })
+        .catch(() => setView('landing'))
+    } else {
+      setView('landing')
+    }
+  }, [])
 
   function handleGetStarted() {
     const existing = loadIntake()
@@ -45,9 +69,8 @@ export default function App() {
     }
   }
 
-  function handleIntakeComplete(intake) {
+  function handleIntakeComplete() {
     setView('generating')
-    // intake is passed down, GeneratingState fetches and calls onDone
   }
 
   function handlePlaybookReady(playbookData) {
@@ -69,6 +92,14 @@ export default function App() {
     clearIntake()
     setPlaybook(null)
     setView('intake')
+  }
+
+  if (view === 'loading') {
+    return (
+      <div className="min-h-screen bg-gray-950 flex items-center justify-center">
+        <div className="w-6 h-6 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+      </div>
+    )
   }
 
   return (
