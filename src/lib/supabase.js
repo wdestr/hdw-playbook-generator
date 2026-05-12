@@ -1,30 +1,21 @@
-import { createClient } from '@supabase/supabase-js'
-
-const url = import.meta.env.VITE_SUPABASE_URL
-const key = import.meta.env.VITE_SUPABASE_ANON_KEY
-
-export const supabaseEnabled = Boolean(url && key)
-
-const client = supabaseEnabled ? createClient(url, key) : null
+// Playbook persistence via Netlify Blobs (no external services needed)
+export const supabaseEnabled = true
 
 export async function savePlaybook(intake, playbook) {
-  if (!client) return null
-  const { data, error } = await client
-    .from('playbooks')
-    .insert({ intake, playbook })
-    .select('id')
-    .single()
-  if (error) throw error
+  const res = await fetch('/api/save-playbook', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ intake, playbook }),
+  })
+  const data = await res.json()
+  if (data.error) throw new Error(data.error)
   return data.id
 }
 
 export async function loadPlaybook(id) {
-  if (!client) return null
-  const { data, error } = await client
-    .from('playbooks')
-    .select('intake, playbook')
-    .eq('id', id)
-    .single()
-  if (error) throw error
+  const res = await fetch(`/api/get-playbook?id=${encodeURIComponent(id)}`)
+  if (res.status === 404) return null
+  const data = await res.json()
+  if (data.error) throw new Error(data.error)
   return data
 }
