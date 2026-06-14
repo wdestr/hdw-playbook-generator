@@ -1,7 +1,8 @@
 import { useRef, useState, useEffect } from 'react'
 import { loadIntake } from '../../lib/storage'
-import { savePlaybook, supabaseEnabled } from '../../lib/supabase'
+import { savePlaybook, playbookSharingEnabled } from '../../lib/playbookApi'
 import { notificationsSupported, permissionGranted, requestPermission, scheduleReminders } from '../../lib/notifications'
+import { DAY1, DAY2 } from '../../lib/conference'
 
 const MODULES = [
   { id: 'brief', label: '📋 Conference Brief', icon: '📋' },
@@ -91,7 +92,7 @@ export default function Playbook({ playbook, onStartOver, onSwitchPhase }) {
                 {notifState === 'on' ? `🔔 ${reminderCount}` : '🔕'}
               </button>
             )}
-            {supabaseEnabled && (
+            {playbookSharingEnabled && (
               <button
                 onClick={handleShare}
                 disabled={shareState === 'saving'}
@@ -218,8 +219,8 @@ function ModuleHeader({ icon, title, subtitle }) {
 
 function SessionList({ sessions }) {
   if (!sessions?.length) return <EmptyState />
-  const day1 = sessions.filter(s => s.date === '2026-05-20')
-  const day2 = sessions.filter(s => s.date === '2026-05-21')
+  const day1 = sessions.filter(s => s.date === DAY1)
+  const day2 = sessions.filter(s => s.date === DAY2)
   return (
     <div className="space-y-8">
       {day1.length > 0 && (

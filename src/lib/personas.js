@@ -1,3 +1,7 @@
+// Persona labels + tags are sourced from a single shared file so the frontend
+// and the Netlify function (netlify/functions/generate.js) stay in sync.
+import personaData from '../../public/data/personas.json';
+
 // The 5 persona IDs
 export const PERSONAS = {
   RETAILER_SHIPPER: 'retailer-shipper',
@@ -8,22 +12,10 @@ export const PERSONAS = {
 };
 
 // Display labels for each persona
-export const PERSONA_LABELS = {
-  'retailer-shipper': 'Retailer / Shipper',
-  'carrier-3pl': 'Carrier / 3PL',
-  'tech-vendor': 'Tech Vendor',
-  'startup-investor': 'Startup / Investor',
-  'operator-advisor': 'Operator-Advisor',
-};
+export const PERSONA_LABELS = personaData.labels;
 
 // Tag subsets relevant to each persona (used by dataFilter.js)
-export const PERSONA_TAGS = {
-  'retailer-shipper': ['last-mile', 'retail', 'technology', 'big-bulky', 'grocery', 'returns', 'customer-experience'],
-  'carrier-3pl': ['carrier', '3pl', 'last-mile', 'routing', 'tms', 'parcel'],
-  'tech-vendor': ['technology', 'tms', 'routing', 'visibility', 'last-mile', 'startup'],
-  'startup-investor': ['startup', 'technology', 'last-mile', 'ev'],
-  'operator-advisor': ['last-mile', 'retail', 'carrier', 'technology', 'returns', 'startup'],
-};
+export const PERSONA_TAGS = personaData.tags;
 
 // Detection patterns - order matters, first match wins
 const DETECTION_PATTERNS = [

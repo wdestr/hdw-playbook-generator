@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { usePhase } from './hooks/usePhase'
 import { loadIntake, saveIntake, clearIntake } from './lib/storage'
-import { loadPlaybook, supabaseEnabled } from './lib/supabase'
+import { loadPlaybook, playbookSharingEnabled } from './lib/playbookApi'
 import Landing from './components/Landing'
 import PhaseSelector from './components/PhaseSelector'
 
@@ -23,7 +23,7 @@ export default function App() {
     const params = new URLSearchParams(window.location.search)
     const shareId = params.get('id')
 
-    if (shareId && supabaseEnabled) {
+    if (shareId && playbookSharingEnabled) {
       loadPlaybook(shareId)
         .then(data => {
           if (data) {

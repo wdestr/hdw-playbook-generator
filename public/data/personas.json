@@ -1,0 +1,16 @@
+{
+  "labels": {
+    "retailer-shipper": "Retailer / Shipper",
+    "carrier-3pl": "Carrier / 3PL",
+    "tech-vendor": "Tech Vendor",
+    "startup-investor": "Startup / Investor",
+    "operator-advisor": "Operator-Advisor"
+  },
+  "tags": {
+    "retailer-shipper": ["last-mile", "retail", "technology", "big-bulky", "grocery", "returns", "customer-experience"],
+    "carrier-3pl": ["carrier", "3pl", "last-mile", "routing", "tms", "parcel"],
+    "tech-vendor": ["technology", "tms", "routing", "visibility", "last-mile", "startup"],
+    "startup-investor": ["startup", "technology", "last-mile", "ev"],
+    "operator-advisor": ["last-mile", "retail", "carrier", "technology", "returns", "startup"]
+  }
+}

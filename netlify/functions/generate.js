@@ -4,13 +4,8 @@ const speakers = require('../../public/data/speakers.json');
 const exhibitors = require('../../public/data/exhibitors.json');
 const agendaMeta = require('../../public/data/agenda-meta.json');
 
-const PERSONA_TAGS = {
-  'retailer-shipper': ['last-mile', 'retail', 'technology', 'big-bulky', 'grocery', 'returns', 'customer-experience'],
-  'carrier-3pl': ['carrier', '3pl', 'last-mile', 'routing', 'tms', 'parcel'],
-  'tech-vendor': ['technology', 'tms', 'routing', 'visibility', 'last-mile', 'startup'],
-  'startup-investor': ['startup', 'technology', 'last-mile', 'ev'],
-  'operator-advisor': ['last-mile', 'retail', 'carrier', 'technology', 'returns', 'startup'],
-};
+// Shared with the frontend (src/lib/personas.js) so persona tags stay in sync.
+const PERSONA_TAGS = require('../../public/data/personas.json').tags;
 
 const PERSONA_SYSTEM_PROMPTS = {
   'retailer-shipper': `You are a sharp logistics advisor helping a retail or shipping executive get maximum ROI from Home Delivery World. Your lens: operational problems, technology solutions, and carrier relationships. You prioritize sessions where a retailer can learn from peers or evaluate solutions. You filter hard on relevance — this person doesn't have time for vendor pitches dressed as content.`,

@@ -37,10 +37,10 @@ See `HDW-Playbook-Generator-PRD.md` for the full product spec, and
 - **Tests**: Vitest + Testing Library (`happy-dom` environment).
 - **Hosting**: Netlify (`netlify.toml`).
 
-> Note: the module `src/lib/supabase.js` is named for historical reasons but
-> does **not** use Supabase — it calls the Netlify Functions (`/api/save-playbook`,
-> `/api/get-playbook`). `@supabase/supabase-js` is listed in `package.json`
-> but is not used by the live code path.
+> Note: `@supabase/supabase-js` is listed in `package.json` for historical
+> reasons but is **not** used by the live code path — playbook persistence goes
+> through the Netlify Functions (`/api/save-playbook`, `/api/get-playbook`) in
+> `src/lib/playbookApi.js`.
 
 ## Commands
 
@@ -71,6 +71,7 @@ public/data/               # Static conference data (loaded at build/runtime)
   exhibitors.json          #   50 exhibitors (id, company, boothNumber, categories, description)
   speakers.json            #  102 speakers  (id, name, company, role)
   agenda-meta.json         #   venue, dates, keynote slots, happy hours, meal times
+  personas.json            #   shared persona labels + tags (frontend + backend)
 
 netlify/functions/         # Serverless backend (CommonJS)
   generate.js              #   the AI brain: builds prompts per phase/tool, calls Gemini
@@ -84,8 +85,9 @@ src/
   hooks/usePhase.js        # active phase state (all phases currently unlocked)
   lib/
     storage.js             #   localStorage intake (key: 'hdw2026_intake')
-    supabase.js            #   playbook save/load via /api (misnamed; not Supabase)
-    personas.js            #   5 personas: IDs, labels, tag sets, role detection
+    playbookApi.js         #   playbook save/load via /api (Netlify Functions + Blobs)
+    personas.js            #   5 personas: IDs + role detection (labels/tags from personas.json)
+    conference.js          #   shared conference dates (DAY1/DAY2 from agenda-meta.json)
     dataFilter.js          #   client-side session/exhibitor filtering by persona tags
     notifications.js       #   browser notifications: 15-min session reminders
     pdfExport.js           #   multi-page PDF export of playbook modules
@@ -126,10 +128,11 @@ present, loads that playbook from the backend and jumps straight to the
 
 `retailer-shipper`, `carrier-3pl`, `tech-vendor`, `startup-investor`,
 `operator-advisor`. Each has a display label, a tag subset used for filtering,
-and keyword detection patterns. **This persona model is duplicated** between
-`src/lib/personas.js` (frontend) and `netlify/functions/generate.js`
-(`PERSONA_TAGS` + `PERSONA_SYSTEM_PROMPTS`). If you change personas or tags,
-update **both** places.
+and keyword detection patterns. **Labels and tags live in a single shared file,
+`public/data/personas.json`**, consumed by both `src/lib/personas.js` (frontend)
+and `netlify/functions/generate.js` (backend) — edit them there. Frontend-only
+concerns (role-detection patterns) stay in `personas.js`; backend-only concerns
+(`PERSONA_SYSTEM_PROMPTS`) stay in `generate.js`.
 
 ### The AI layer (`netlify/functions/generate.js`)
 
@@ -164,6 +167,9 @@ Conventions in this function:
   content; the AI is only given filtered subsets of them.
 - **Imports**: `pdfExport.js` lazy-imports heavy deps (`jspdf`, `html2canvas`)
   — keep that pattern to avoid bloating the main bundle.
+- **Shared constants**: persona labels/tags come from `public/data/personas.json`
+  and conference dates from `src/lib/conference.js` (`DAY1`/`DAY2`). Don't
+  re-hardcode persona tags or `2026-05-2x` date strings — import them.
 - ESLint flat config with React + hooks rules; run `npm run lint` before
   committing.
 
@@ -190,13 +196,16 @@ pushing.
 
 ## Gotchas
 
-- `usePhase.js` references a `PHASE_UNLOCK` constant that is not defined; it
-  works only because `isUnlocked()` always returns `true`. All phases are
-  currently unlocked — be careful if reintroducing gating.
-- `src/lib/supabase.js` is a misnomer (no Supabase); leave imports referencing
-  it intact unless you intentionally rename across the codebase.
-- Persona definitions are duplicated frontend/backend (see above) — keep them
-  in sync.
-- Conference dates (`2026-05-20`, `2026-05-21`) are hardcoded in several places
-  (e.g. `notifications.js`, prompt text); update consistently if dates change.
+- **Phase gating**: all three phases are currently unlocked via the
+  `PHASE_UNLOCK` map in `src/hooks/usePhase.js`. That map is the single place to
+  reintroduce gating (e.g. unlock Phase 2/3 only after a playbook exists).
+- **CommonJS functions + ESLint**: the ESLint config only declares browser
+  globals, so the CommonJS Netlify functions report `no-undef` for
+  `require`/`exports`/`process`. These are expected/pre-existing, not
+  regressions — `npm run lint` is not currently clean for the functions (and the
+  React components emit pre-existing `react/prop-types` warnings).
+- **Date format in prompts**: `generate.js` still contains literal date strings
+  inside the prompt text it sends to Gemini (e.g. the expected `"date"` format).
+  Those are instructions to the model, not app logic; the actual conference
+  dates flow in via `agenda-meta.json`. Update prompt text if dates change.
 ```

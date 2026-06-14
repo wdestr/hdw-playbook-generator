@@ -1,5 +1,7 @@
-// Playbook persistence via Netlify Blobs (no external services needed)
-export const supabaseEnabled = true
+// Playbook persistence via Netlify Functions + Netlify Blobs (no external
+// services needed). Shareable playbooks are saved server-side and reloaded
+// from a ?id= link.
+export const playbookSharingEnabled = true
 
 export async function savePlaybook(intake, playbook) {
   const res = await fetch('/api/save-playbook', {

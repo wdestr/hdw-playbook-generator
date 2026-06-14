@@ -1,3 +1,5 @@
+import { DAY1, DAY2 } from './conference'
+
 const REMINDER_MINUTES = 15
 
 export function notificationsSupported() {
@@ -29,8 +31,8 @@ export function scheduleReminders(schedule) {
   let count = 0
 
   const days = [
-    { key: 'day1', date: '2026-05-20' },
-    { key: 'day2', date: '2026-05-21' },
+    { key: 'day1', date: DAY1 },
+    { key: 'day2', date: DAY2 },
   ]
 
   for (const { key, date } of days) {
